@@ -58,6 +58,7 @@ def sysIO():
 				j-=b
 				for item in j:
 					outFile=sys.argv[item]
+					outFile=outFile +c
 					
 			i+=1
 	else:
@@ -188,7 +189,7 @@ def subSec():
 			newRQ['label']=newLabel
 			allSubSecs.append(newRQ)
 		i+=1
-	print(allSubSecs)
+	# print(allSubSecs)
 	fin.close()
 	
 	return allSubSecs            
@@ -212,9 +213,6 @@ def pandaDtoC(subSecDic, outFile, status):
 def heirOrFlat(inputFile):
 
 	file = open(inputFile,mode='r')
-
-	fout = open("out.txt",mode='w')
-
 	contents = file.readlines()
 	heirData = r"^\d\.\d\."
 	
