@@ -1,0 +1,220 @@
+﻿id,description,use_case
+EW11b,"Track the movement of lapsed quantities in an area, including:   Which permit and well obtained the lapsed quantities. Where the lapsed quantities are located. Why the quantities are lapsed (i.e. expired, cancelled, retired).What MFL zone the lapsed quantities are in. ",View Lapsed and Project Quantities Summary View Report  View Use of Lapsed Quantities 
+RW16,"Track the movement of lapsed quantities in an area, including:   Which permit and well obtained the lapsed quantities. Where the lapsed quantities are located. Why the quantities are lapsed (i.e. expired, cancelled, retired).What MFL zone the lapsed quantities are in. ",View Lapsed and Project Quantities Summary View Report  View Use of Lapsed Quantities 
+SR20,"Track the movement of lapsed quantities in an area, including:   Which permit and well obtained the lapsed quantities. Where the lapsed quantities are located. Why the quantities are lapsed (i.e. expired, cancelled, retired).What MFL zone the lapsed quantities are in. ",View Lapsed and Project Quantities Summary View Report  View Use of Lapsed Quantities 
+SR21,"Track the movement of lapsed quantities in an area, including:   Which permit and well obtained the lapsed quantities. Where the lapsed quantities are located. Why the quantities are lapsed (i.e. expired, cancelled, retired).What MFL zone the lapsed quantities are in. ",View Lapsed and Project Quantities Summary View Report  View Use of Lapsed Quantities 
+SR22,"Track the movement of lapsed quantities in an area, including:   Which permit and well obtained the lapsed quantities. Where the lapsed quantities are located. Why the quantities are lapsed (i.e. expired, cancelled, retired).What MFL zone the lapsed quantities are in. ",View Lapsed and Project Quantities Summary View Report  View Use of Lapsed Quantities 
+SR23,"Track the movement of lapsed quantities in an area, including:   Which permit and well obtained the lapsed quantities. Where the lapsed quantities are located. Why the quantities are lapsed (i.e. expired, cancelled, retired).What MFL zone the lapsed quantities are in. ",View Lapsed and Project Quantities Summary View Report  View Use of Lapsed Quantities 
+EW11a,"Track the relocation of active water use within the 
+SWUCA.  ",View Net Benefit Summary View Report 
+SR18,"Track the relocation of active water use within the 
+SWUCA.  ",View Net Benefit Summary View Report 
+RW1 ,"Track the relocation of active water use within the 
+SWUCA.  ",View Net Benefit Summary View Report 
+EW11b,"Track the movement of lapsed quantities in an area,
+including: Which permit and well obtained the lapsed
+quantities. Where the lapsed quantities are located. Why the quantities are lapsed (i.e. expired,
+cancelled, retired). What MFL zone the lapsed quantities are in.",
+RW16,"Track the movement of lapsed quantities in an area,
+including: Which permit and well obtained the lapsed
+quantities. Where the lapsed quantities are located. Why the quantities are lapsed (i.e. expired,
+cancelled, retired). What MFL zone the lapsed quantities are in.","View Lapsed and 
+Project Quantities 
+Summary 
+View Report 
+View Use of Lapsed 
+Quantities "
+SR20,"Track the movement of lapsed quantities in an area,
+including: Which permit and well obtained the lapsed
+quantities. Where the lapsed quantities are located. Why the quantities are lapsed (i.e. expired,
+cancelled, retired). What MFL zone the lapsed quantities are in.","View Lapsed and 
+Project Quantities 
+Summary 
+View Report 
+View Use of Lapsed 
+Quantities "
+SR21,"Track the movement of lapsed quantities in an area,
+including: Which permit and well obtained the lapsed
+quantities. Where the lapsed quantities are located. Why the quantities are lapsed (i.e. expired,
+cancelled, retired). What MFL zone the lapsed quantities are in.","View Lapsed and 
+Project Quantities 
+Summary 
+View Report 
+View Use of Lapsed 
+Quantities "
+SR22,"Track the movement of lapsed quantities in an area,
+including: Which permit and well obtained the lapsed
+quantities. Where the lapsed quantities are located. Why the quantities are lapsed (i.e. expired,
+cancelled, retired). What MFL zone the lapsed quantities are in.","View Lapsed and 
+Project Quantities 
+Summary 
+View Report 
+View Use of Lapsed 
+Quantities "
+SR23 ,"Track the movement of lapsed quantities in an area,
+including: Which permit and well obtained the lapsed
+quantities. Where the lapsed quantities are located. Why the quantities are lapsed (i.e. expired,
+cancelled, retired). What MFL zone the lapsed quantities are in.","View Lapsed and 
+Project Quantities 
+Summary 
+View Report 
+View Use of Lapsed 
+Quantities "
+JY4 ,"Report on the history of irrigation water conserving credits, including the balance, how much earned, and how much used, and drought quantities.  Know who uses them and who has accumulated them, and be able to report on an individual basis, by a geographic area, or aggregate the data. ",View Water Use ViewPermit Report 
+SR7,"Report on the history of irrigation water conserving credits, including the balance, how much earned, and how much used, and drought quantities.  Know who uses them and who has accumulated them, and be able to report on an individual basis, by a geographic area, or aggregate the data. ",View Water Use ViewPermit Report 
+RW13,"Track and report on the history of permitted data, such as use type, irrigated acres, and pumpage (one use would be to know whether expired permits have had quantities reallocated). ",View Water Use Permit View Withdrawal Pumpage Information 
+RW18,"Track and report on the history of permitted data, such as use type, irrigated acres, and pumpage (one use would be to know whether expired permits have had quantities reallocated). ",View Water Use Permit View Withdrawal Pumpage Information 
+SR32 ,"Track and report on the history of permitted data, such as use type, irrigated acres, and pumpage (one use would be to know whether expired permits have had quantities reallocated). ",View Water Use Permit View Withdrawal Pumpage Information 
+RW14,"Track and measure alternative source projects (note:  some of these may be included in table 8): Surface water or stormwater projects. Reclaimed water (reuse water). Augmented surface water (reservoirs, harvesting of high flows (floodwaters). ASR (Aquifer storage recovery) Desalination. Conservation (defined as a beneficial reduction of water use resulting in: o modification of water use practices,  reduction of unaccounted-for losses, or installation and maintenance of low volume water use systems, processes, fixtures, or devices. ",View Map View Report View Use of Quantities Associated With District Projects 
+SR8 ,"Track and measure alternative source projects (note:  some of these may be included in table 8): Surface water or stormwater projects. Reclaimed water (reuse water). Augmented surface water (reservoirs, harvesting of high flows (floodwaters). ASR (Aquifer storage recovery) Desalination. Conservation (defined as a beneficial reduction of water use resulting in: o modification of water use practices,  reduction of unaccounted-for losses, or installation and maintenance of low volume water use systems, processes, fixtures, or devices. ",View Map View Report View Use of Quantities Associated With District Projects 
+RW28,"View the spatial impact of a person's application with other active applications on-line so the applicant or evaluator has a visual of who else is available to compete for quantities with.  Also include application and permit data on-line, either with scanned documents or access to database.  The historical data should also be available, but viewing restrictions for certain legal documents has to be followed.  Be able to query by geographic area or permit number. ",View Map View Water Use Permit Search View Report 
+RW20,"View the spatial impact of a person's application with other active applications on-line so the applicant or evaluator has a visual of who else is available to compete for quantities with.  Also include application and permit data on-line, either with scanned documents or access to database.  The historical data should also be available, but viewing restrictions for certain legal documents has to be followed.  Be able to query by geographic area or permit number. ",View Map View Water Use Permit Search View Report 
+SR4,"View the spatial impact of a person's application with other active applications on-line so the applicant or evaluator has a visual of who else is available to compete for quantities with.  Also include application and permit data on-line, either with scanned documents or access to database.  The historical data should also be available, but viewing restrictions for certain legal documents has to be followed.  Be able to query by geographic area or permit number. ",View Map View Water Use Permit Search View Report 
+SR6 ,"View the spatial impact of a person's application with other active applications on-line so the applicant or evaluator has a visual of who else is available to compete for quantities with.  Also include application and permit data on-line, either with scanned documents or access to database.  The historical data should also be available, but viewing restrictions for certain legal documents has to be followed.  Be able to query by geographic area or permit number. ",View Map View Water Use Permit Search View Report 
+RW30a ,"Create heat map indicating who was over-pumping, who was not over-pumping, or who was using their water credits.   ",View Map 
+RW30b ,Heat map for water quality. Add the District WUPnet sentinel wells on this map - those are the District wells that have been in existence the longest time and we have the best data with.  So if we bring them up in an area we know we have reliable data. ,View Map 
+SR12a ,Report on the permits that have been relocated by a permit holder. ,View Net Benefit Summary View Report View Change in Use Type or Owner 
+SR12b,"Track the impact that water use has to the set MFL levels.  In particular, compare the affects of the new or modified use to the actual flow and level of the water body or aquifer to make sure the actual level will not go below the MFL level.  Types of things to check are:","New applications, renewals, or modifications. Relocated uses. Change of use type. Lapsed quantities. Retired permits (some are lapsed - some are not). "
+SR13,"Track the impact that water use has to the set MFL levels.  In particular, compare the affects of the new or modified use to the actual flow and level of the water body or aquifer to make sure the actual level will not go below the MFL level.  Types of things to check are:",View Net Benefit Summary View Change in Use Type or Owner View Use of Lapsed Quantities View Water Withdrawal Credit View Land Use Information View Lapsed and Project Quantities Summary 
+SR26a,"Track the impact that water use has to the set MFL levels.  In particular, compare the affects of the new or modified use to the actual flow and level of the water body or aquifer to make sure the actual level will not go below the MFL level.  Types of things to check are:",View Net Benefit Summary View Change in Use Type or Owner View Use of Lapsed Quantities View Water Withdrawal Credit View Land Use Information View Lapsed and Project Quantities Summary 
+EW12 ,"Track the impact that water use has to the set MFL levels.  In particular, compare the affects of the new or modified use to the actual flow and level of the water body or aquifer to make sure the actual level will not go below the MFL level.  Types of things to check are:",View Net Benefit Summary View Change in Use Type or Owner View Use of Lapsed Quantities View Water Withdrawal Credit View Land Use Information View Lapsed and Project Quantities Summary 
+SR14,Track net benefit changes.  Some things involved are:  Relocated permits Permits with a change of use Old and new locations Lapsed quantities Reclaimed water (not in database yet) Projects Amount of net benefit gained or lost from the change New permits that came from an older permit due to a new benefit gain ,View Net Benefit Summary View Change in Use Type or Owner View Use of Lapsed Quantities View Water Withdrawal Credit View Land Use Information View Lapsed and Project Quantities Summary 
+SR26b,Track net benefit changes.  Some things involved are:  Relocated permits Permits with a change of use Old and new locations Lapsed quantities Reclaimed water (not in database yet) Projects Amount of net benefit gained or lost from the change New permits that came from an older permit due to a new benefit gain ,View Net Benefit Summary View Change in Use Type or Owner View Use of Lapsed Quantities View Water Withdrawal Credit View Land Use Information View Lapsed and Project Quantities Summary 
+EW2,Track net benefit changes.  Some things involved are:  Relocated permits Permits with a change of use Old and new locations Lapsed quantities Reclaimed water (not in database yet) Projects Amount of net benefit gained or lost from the change New permits that came from an older permit due to a new benefit gain ,View Net Benefit Summary View Change in Use Type or Owner View Use of Lapsed Quantities View Water Withdrawal Credit View Land Use Information View Lapsed and Project Quantities Summary 
+SR15 ,Track net benefit changes.  Some things involved are:  Relocated permits Permits with a change of use Old and new locations Lapsed quantities Reclaimed water (not in database yet) Projects Amount of net benefit gained or lost from the change New permits that came from an older permit due to a new benefit gain ,View Net Benefit Summary View Change in Use Type or Owner View Use of Lapsed Quantities View Water Withdrawal Credit View Land Use Information View Lapsed and Project Quantities Summary 
+SR16 ,"Report the net benefit amount in MGD for: Change of permitted location or use Land use change Use of lapsed quantities Water withdrawal credit (replacement, reclaimed water) ",View Net Benefit Summary View Change in Use Type or Owner View Use of Lapsed Quantities View Water Withdrawal Credit View Land Use Information View Lapsed and Project Quantities Summary 
+SR17,Mark those permits that have a land use change so the quantities can be relocated to the public supply utility.,View Change in Use Type or Owner View Report 
+SR19,"Create layer that includes ""cones of depression"" for the MFL information, which will indicate the area of influence to an MFL.",View Map 
+SR24,"Report on any water use amounts sold or given from one permit to another permit, especially reclaimed water (reclaimed water can be taken away, depending on the contract. It is kind-of-like ?leasing? the water, but can be taken away). ",View Net Benefit Summary View Water Withdrawal Credit 
+SR25 ,"Report on any water use amounts sold or given from one permit to another permit, especially reclaimed water (reclaimed water can be taken away, depending on the contract. It is kind-of-like ?leasing? the water, but can be taken away). ",View Net Benefit Summary View Water Withdrawal Credit 
+SR29,"Report on how much water was made available through the District's water resource development projects.  Elements of the report should be: Source of benefit (aquifer or surface water). The locations of the alternative sources. What permits are using the quantities generated by the projects, and what project they are getting the water from. ",View Mitigation of MFL Impacts View Use of Quantities Associated With District Projects View Map 
+SR9 ,"Report on how much water was made available through the District's water resource development projects.  Elements of the report should be: Source of benefit (aquifer or surface water). The locations of the alternative sources. What permits are using the quantities generated by the projects, and what project they are getting the water from. ",View Mitigation of MFL Impacts View Use of Quantities Associated With District Projects View Map 
+SR3,Report on the permit duration (To track expiration dates for those looking for someone to compete with).,View Report View Water Use Permit Search 
+SR31,Should allow comparison to adjacent districts GIS layers to permit GIS layer to access adjacent data.,View Map Maintain Quicklinks 
+SR33,Report compliance on a permit (not wells). Crop reports on permits (not wells).,View Report 
+SR5,Report on competing applications (including ones that are in modification or expiring).,View Report View Water Use Permit Search 
+SW20 ,Supply the Regulatory requirements of MFL data: What water levels are in relationship to MFL so you know who has to mitigate or how much excess flow there is. Need the historic and current levels so applicant knows how much to mitigate or what is available. ,View Report 
+TW9,"Be able to determine the availability of alternative use supplies, such as reclaimed water and desalination.",View Map
+SR2,Report the Reservation from use amounts allocated to certain participants.,View Water Use Permit Search
+EW14,"Track ownership of wells or permits over the life of the withdrawal point so the relocated quantities can be traced from owner to owner.  Quantities that are relocated will have certain restrictions placed on them, as well as any quantities that remain on the original permit.  For permits that have multiple withdrawal points, we need the ability to track ownership of specific withdrawal points over time.",View Report View Water Use Permit
+EW21,"Be able to look at permitted quantities, actual quantities (pumpage), and the resources it uses (Water Management DB)",View Report View Water Use Permit
+EW9,Ability to track requested and permitted quantities.,View Water Use Permit
+JY1,Identify when a standby permit is reactivated due to the loss of alternative quantities.,View Net Benefit Summary View Water Withdrawal Credit 
+RW19,"Have a heat map that shows permit information for specific time periods.  You should be able to input a geographic area (whether by county, department, or entire District area), select the time period(s) you want, and select one of two views:  permits issued or active permits in that time period, and produce the map show the locations.  On a high-level view, you need to be able to see the locations with the predominate use type reflected on the map itself, and include a graph or chart showing the total number of permits, predominate use shown by %, and the time period involved.  If you click on it, bring up the permit details, such as name, permit number, issue date, expire date, use type, wuca, and average quantities.",View Map View Report 
+RW27,"Automate some of the requests that Jim Whalen receives.  The majority of request are related to permitted and pumpage quantities, both at the permit level and well level.   They are usually sorted temporally or geographically.",View Water Use Permit View Report View Withdrawal Pumpage Information View Well Construction Information View Resource Information View Crop Report Information View Land Use Information View Compliance Information 
+RW29,"Ability for public utilities and internal staff to find existing permits in or near their service area so they can spatially see what water is available, or may become available, when they plan for their future growth and water resources.  They will need to view the use type (interested mainly in agricultural and mining), owned acres, and the current permittee's contact information.",View Map View Water Use Permit Search 
+RW37,Analyze permits using a soils type GIS layer.  Have a second soils layer based on the soil types indicated on the permittees compliance to conditions.,View Map 
+TW4,Analyze permits using a soils type GIS layer.  Have a second soils layer based on the soil types indicated on the permittees compliance to conditions.,View Map 
+RW4,Ability to have printable and customizable maps,View Map 
+RW46a,"Identify when the District or another governmental agency purchases land, a link should be available to show if there is a permit on that area so it can be retired.  ",View Map 
+RW46b,Need to know how water use changes when land use changes.,View Report View Land Use Information 
+RW6,Have an easy way to query data by various fields: Issue date Expiration date  Use type or other commodity  Predominate use Pumpage reports Permitted quantities Permit status (active/delete/app/permit) ,View Water Use Permit Search 
+SW17,Have an easy way to query data by various fields: Issue date Expiration date  Use type or other commodity  Predominate use Pumpage reports Permitted quantities Permit status (active/delete/app/permit) ,View Water Use Permit Search 
+RW26a ,Have an easy way to query data by various fields: Issue date Expiration date  Use type or other commodity  Predominate use Pumpage reports Permitted quantities Permit status (active/delete/app/permit) ,View Water Use Permit Search 
+SW18,"Ability to pull a well package that provides a view of water use at a particular time that is then plugged into models used to generate water use amounts.  The data would include wells, land elevation, aquifer, and total and cased depths.  ",Generate Well Package
+SW24,"The ability to associate permitted quantities, pumpage quantities, and use code data at the well level.",View Water Use Permit View Withdrawal Pumpage Information
+SW25,"The ability to associate permitted quantities, pumpage quantities, and use code data at the well level.",View Water Use Permit View Withdrawal Pumpage Information
+TW12,Track changes in land use and how it affects water availability.,View Report View Land Use Information
+TW16,Need historical data for Water Use Permits including their spatial representations (polygons),View Map
+EW1,"Must be able to track trends in land use and water use changes.  These include several means by which a proposed new withdrawal that impacts an MFL waterbody can achieve a ""Net Benefit,"" including the provisions for relocated, lapsed, and water withdrawal credits.",View Report View Land Use Information
+EW4,Ability to track water use over time and negotiate reasonable new water use based on water use pumpage trends.  ,View Withdrawal Pumpage Information View Report
+EW5,Ability to track water use over time and negotiate reasonable new water use based on water use pumpage trends.  ,View Withdrawal Pumpage Information View Report
+EW7,Ability to track water use over time and negotiate reasonable new water use based on water use pumpage trends.  ,View Withdrawal Pumpage Information View Report
+RW15,Track by withdrawal source ? what aquifer or USGS water body are general and Individual permits pumping from.  ,View Report View Land Use Information View Withdrawal Pumpage Information View Report View Water Use Permit Search View Map
+RW33,"Have map be able to show quantity of pumpage.  Hover over or click a point in the map and see the average rolling 12, peak month, and max month compared to the pumpage of the well.  Also get the cumulative quantities for an area you enter manually.  ",View Report
+RW49,"Provide the ability for applicants or District staff to compare the percentage a permit is over-pumping, based on use type, against the regional average for the same use type.  The region would be the area that fell within the buffer distance entered, and the time of interest would also be entered.",View Report View Withdrawal Pumpage Information
+SW11,"Need to know what aquifer is being pumped from.  There are permitting constraints in ETB MIA that no additional water from the Floridan Aquifer can be pumped, but it is allowed from Intermediate aquifer.",View Withdrawal Pumpage Information
+SW15,"Select water use data temporally or with geographic overlays, which can be from another layer or graphics on the page.  Also be able to place it in an Excel spreadsheet.",View Map
+SW9,"Select water use data temporally or with geographic overlays, which can be from another layer or graphics on the page.  Also be able to place it in an Excel spreadsheet.",View Map
+SW21,"Select water use based on predominant use, use types, and regions they fall in.  The predominant use would be agricultural, industrial, mining & dewatering, public supply, and recreational.  Each predominate use is further broken down into more detailed categories, such as melons or citrus for the agricultural predominate use.  This needs historical data for trend analysis.",View Report View Water Use Permit Search
+SW6,"Generate monthly reports for Board Packet that shows the difference in quantities permitted every month for specified geographic areas (i.e., counties, MIA, etc.).",View Report
+TW1,Establish relationships between inputs (i.e. rainfall) and pumpage data. (Note:  In response to one of Kurt's comments regarding the amount of pumping in areas in relationship to amount of rainfall and irrigation system efficiency.),View Map
+TW10,Show the intensity of water use in a geographic area on a color-coded map.,View Map
+TW11,Show the intensity of water use in a geographic area on a color-coded map.,View Map
+TW15,"Identify different types of water use, such as groundwater, surface water, and re-use.",View Water Use Permit
+TW8,Know how much water has been permitted and how much has been used based on land use over time.,View Report
+EW13,Support extraction or reporting of data for ad-hoc geographic areas by using spatial queries such as graphics or polygon buffering.  The ability to aggregate the data must be there and any type of polygon should be able to be used.,View Map
+RW22,"Track aquifer level changes, lake level changes, rainfall level changes, and stream flow changes by area over time (i.e. monthly).",View Report
+RW23,"Track aquifer level changes, lake level changes, rainfall level changes, and stream flow changes by area over time (i.e. monthly).",View Report
+RW24,"Track aquifer level changes, lake level changes, rainfall level changes, and stream flow changes by area over time (i.e. monthly).",View Report
+RW48,"Track aquifer level changes, lake level changes, rainfall level changes, and stream flow changes by area over time (i.e. monthly).",View Report
+RW25,Create layer that shows the Developments of Regional Impacts (DRI) and their status.  This layer will be plugged into the new model for population projections and water supply demand projections.,View Map
+RW45,"Identify what lakes are stressed, when they became stressed, and if/when they came off stressed list.",View Report View Map
+RW10,Track pumpage oddities.  Two examples are:  A.ÿPermittees that have consistent pumpage readings even when some of the data is missing.  Use this information to predict whether they are in compliance in spite of the missing data. B.ÿPermittees that enter zero on their pumpage reports.,View Report View Withdrawal Pumpage Information View Compliance Information View Resource Information View Water Use Permit Search
+RW9b,Track pumpage oddities.  Two examples are:  A.ÿPermittees that have consistent pumpage readings even when some of the data is missing.  Use this information to predict whether they are in compliance in spite of the missing data. B.ÿPermittees that enter zero on their pumpage reports.,View Report View Withdrawal Pumpage Information View Compliance Information View Resource Information View Water Use Permit Search
+RW34,"Track permittees not submitting conditional/pumpage reports, and generate a map showing their locations.",View Map View Compliance Information View Resource Information
+RW9a,"Track permittees not submitting conditional/pumpage reports, and generate a map showing their locations.",View Map View Compliance Information View Resource Information
+TW13,"Obtain report of those out of compliance of permit conditions by over-pumping their allowable quantities.  Show how much over pumping is done, and have option to select by time period or by area.  Need to break down to a permit-by-permit basis, but also show the whole thing on a map.",View Map View Report View Compliance Information
+TW14,"Obtain report of those out of compliance of permit conditions by over-pumping their allowable quantities.  Show how much over pumping is done, and have option to select by time period or by area.  Need to break down to a permit-by-permit basis, but also show the whole thing on a map.",View Map View Report View Compliance Information
+EW6,"Need a protocol to assess how the actual flow and levels (AFL) compare to the established minimum flows and levels (MFL), including general trending information and whether waterbody-specific criteria are being met.  There are 3 major provisions to track: Minimum aquifer level - The saltwater intrusion MFL is met when the moving 10-year AFL is at or above the MFL for five consecutive years. The MFL is not met when the 10-year moving AFL in the reference wells is below the MFL for two consecutive years. Minimum flows on the upper Peace River - The MFL is met when the MFL's are at or above the established MFL for three consecutive years. Once the MFL has been considered met, if it is followed by two years where the MFL is not met within a rolling ten-year period, then the AFL shall be considered below the MFL.  A determination of whether AFL's are meeting the established MFL is made at each one of the established minimums (Bartow, Ft. Meade and Zolfo Springs). Minimum lake levels - The proposed MFL is achieved when the long-term P50 is at or above the MFL and the long-term P10 is at or above the High Minimum Lake Level for five consecutive years. Once in compliance, MFL is not met when the long-term P50 is below the MFL for two or more consecutive years or the long-term P10 is below the High Minimum Lake Levels for two or more consecutive years.",View Report
+SW19,"Use system to publish a chart or graph that compares the MFL to a running average of AFL's.  This should reflect how the AFL's are moving along the MFL line and indicate how different resources impact the MFL.  The resources to include are pumpage, new projects, and rainfall.  It will probably be run on a monthly basis.",View Report
+SR34,"Use system to publish a chart or graph that compares the MFL to a running average of AFL's.  This should reflect how the AFL's are moving along the MFL line and indicate how different resources impact the MFL.  The resources to include are pumpage, new projects, and rainfall.  It will probably be run on a monthly basis.",View Report
+EW19,"Ability to add estimated quantities for unmetered permits, which is found in the Water Estimates Database.",Maintain Water Use Estimates
+RW42,"Provide access to population data in system that are aggregated to appropriate geographic areas (services areas, counties, etc.).",View Map
+SW26,The ability to access crop report information spatially and temporally.,View Crop Report Information View Map
+RW2,"Link between Water Use Permits (WUP), Environmental Resource Permits (ERP), and Well Construction Permits.  One use would be as a means of notifying appropriate District staff when pertinent land use changes.  (i.e. want to know if an ERP is issued or applied for a subdivision where permit has been issued for a farm.)",View Report View Map
+SW16,"Link between Water Use Permits (WUP), Environmental Resource Permits (ERP), and Well Construction Permits.  One use would be as a means of notifying appropriate District staff when pertinent land use changes.  (i.e. want to know if an ERP is issued or applied for a subdivision where permit has been issued for a farm.)",View Report View Map
+RW11,Calculate water quality trends by geographic area.,
+SR11,Compare the population reported to the Bureau of Economic and Business Research (BEBR) report.,
+RW47,"Ability to provide external customers a means to query and view application information and locations by entering spatial, temporal, or data specific information.  Current applications satisfying the criteria would be viewed immediately; future applications would be e-mailed.  ",
+RW21,"Create a consistent grid to analyze data through time, including population, water use, etc).",
+EW16,"Use GIS layers to analyze how salt-water intrusion is affecting water quality, etc.  Layer would need to be updated either quarterly or annually.  ",
+RW41 ,"Develop a link between pumpage, water quality, and water levels (both of MFL's and other water bodies).  The permittee has to stop pumping when certain levels are reached: Augment lake when water levels are too high. Pump water when chlorides concentrations too high. Pump more out of well to pond & from pond to golf course. Use more ground water when allowed to, when also q's for surface water. ",
+SW22,"Need tool to be able to estimate water use (now being done in SAS).  To do this estimate, you need to be able to query the water use data with various variables, such as time period, use types, withdrawal type (groundwater or surfacewater), and geographic areas.  Once the initial query is complete, you need to be able to refine the resulting data set.  An example is when you select active permits in a time period.  If a permit expired inside of the time period, the refine tool would help determine if that permit would or would not be a part of the result set, perhaps by determining at what point in the time line it expired. ",
+SW4,"Need tool to be able to estimate water use (now being done in SAS).  To do this estimate, you need to be able to query the water use data with various variables, such as time period, use types, withdrawal type (groundwater or surfacewater), and geographic areas.  Once the initial query is complete, you need to be able to refine the resulting data set.  An example is when you select active permits in a time period.  If a permit expired inside of the time period, the refine tool would help determine if that permit would or would not be a part of the result set, perhaps by determining at what point in the time line it expired. ",
+SW5,"Need tool to be able to estimate water use (now being done in SAS).  To do this estimate, you need to be able to query the water use data with various variables, such as time period, use types, withdrawal type (groundwater or surfacewater), and geographic areas.  Once the initial query is complete, you need to be able to refine the resulting data set.  An example is when you select active permits in a time period.  If a permit expired inside of the time period, the refine tool would help determine if that permit would or would not be a part of the result set, perhaps by determining at what point in the time line it expired. ",
+SW3 ,"Need tool to be able to estimate water use (now being done in SAS).  To do this estimate, you need to be able to query the water use data with various variables, such as time period, use types, withdrawal type (groundwater or surfacewater), and geographic areas.  Once the initial query is complete, you need to be able to refine the resulting data set.  An example is when you select active permits in a time period.  If a permit expired inside of the time period, the refine tool would help determine if that permit would or would not be a part of the result set, perhaps by determining at what point in the time line it expired. ",
+RW5,"Capture crop report data and link it with the corresponding use quantities, so you can observe changing crop patterns, see where land has shifted out of crops, and track water use per planted acre per crop to see patterns in water use by geography.  The accumulation (or depletion) of credits by geographic area could point out potential problems in permitting in specific geographic areas.  It may point to soil type or local cultural practice problems.  Link to requirement JY4/SR7, the report of water credits used and earned.",
+SR33,Report compliance on a permit (not wells). Crop reports on permits (not wells)  (I think this was a requirement to report this data some how at a well level).,
+SR1,Report the Reservation from use amounts associated with some surface water.,
+SR10 ,"Report the per capita daily water figures for the permitted amount, reported amount and adjusted number for per utility.  The formula for adjusted gross capita is:  WD + IM - EX -TL - SU - EM   Population where: WD = ground water & surface water withdrawals IM = water imported/bought from another supplier EX = Water exported/sold to other suppliers TL = treatment loss (typically R/O or sand filtration SU = Significant uses EM = Environmental mitigation, if required as a District permit condition. Population = Functional population ",
+JY5,"Provide the ability to obtain data necessary to determine and access the population estimates for an area or on a permit-by-permit basis. Needs to accommodate how it is determined now and how it will be determined under the SWUCA 2 rules.  This would include:  Seasonal residential report based on AHCA hospital report (determine seasonal populations). Block group and ""place"" level Census Transportation Planning Package data on total workers in Parts A and B for calculating net service area commuter populations (the planned highway and road construction - to see commuter data and areas of growth). Census group and block data (total and by age), housing units, household, and group quarters population. Zip code tabulation areas (ZCTA) by age. Public Supply Service areas. Development of Regional Impact (DRI).(Note:  To calculate projections for service area population and water supply demand the new model needs the DRI's and Road Construction layers.) ",
+RW32,"Provide the ability to obtain data necessary to determine and access the population estimates for an area or on a permit-by-permit basis. Needs to accommodate how it is determined now and how it will be determined under the SWUCA 2 rules.  This would include:  Seasonal residential report based on AHCA hospital report (determine seasonal populations). Block group and ""place"" level Census Transportation Planning Package data on total workers in Parts A and B for calculating net service area commuter populations (the planned highway and road construction - to see commuter data and areas of growth). Census group and block data (total and by age), housing units, household, and group quarters population. Zip code tabulation areas (ZCTA) by age. Public Supply Service areas. Development of Regional Impact (DRI).(Note:  To calculate projections for service area population and water supply demand the new model needs the DRI's and Road Construction layers.) ",
+J6 ,"Provide the ability to obtain data necessary to determine and access the population estimates for an area or on a permit-by-permit basis. Needs to accommodate how it is determined now and how it will be determined under the SWUCA 2 rules.  This would include:  Seasonal residential report based on AHCA hospital report (determine seasonal populations). Block group and ""place"" level Census Transportation Planning Package data on total workers in Parts A and B for calculating net service area commuter populations (the planned highway and road construction - to see commuter data and areas of growth). Census group and block data (total and by age), housing units, household, and group quarters population. Zip code tabulation areas (ZCTA) by age. Public Supply Service areas. Development of Regional Impact (DRI).(Note:  To calculate projections for service area population and water supply demand the new model needs the DRI's and Road Construction layers.) ",
+RW44,"Access well construction data for domestic wells using locational data, such as GPS or section, township, and range.",
+EW8,"The external users need to be able to click on an area and obtain data for the surrounding area, such as lapsed quantities, historical use, and adjacent permits.  Need to support decision-making on the applicant's part, especially when their request does not meet the MFL requirements.",
+JY2 ,"Make the following property appraiser data available so you can improve the ability to project service area populations in inter-Census years in several ways: Provide a more discreet and up-to-date count of housing units in a utility service area. Help determine when a DRI is completed. Match commercial properties by the connection data provided by utilities.  Use lot sizes, where available, to determine its role in household water use compared to other variables in research projects. There may be other data of use as well (wells, pools, etc). ",
+EW15,Need quick access to currently published information to base decisions on.,
+EW17,Replicate the DB2 data daily in Oracle.,
+EW22,Support consistency in decision-making among various users.,
+RW12,Hire a metadata librarian to manage data associated with the Water Use Tracking project.,
+RW26b,"The value you enter should be the actual data value, not any code number associated with it.",
+RW35,Have consistent way to report on permit status and withdrawal status.,
+RW43,Develop and make readily accessible metadata for the data (i.e. need to know the time frames when the data is considered to be good).,
+SW10,System has to be user-friendly.,
+SW12,Ability to customize queries.,
+SW2,"A process needs to be established so corrections to the source data sets can beinitiated, i.e. when errors are discovered when running models.",
+SW23,The same datasets need to be used by all departments or sections of the District.,
+SW27,Need to receive job-specific training and support.,
+SW7,The data has to be available in real time.,
+TW17,Clear documentation that lends to the defensibility of system for when permits are denied or modified.,
+TW18,Clear documentation that lends to the defensibility of system for when permits aredenied or modified.,
+TW19,Could have wizards to help users perform tasks.,
+TW20,Have a decision tree for the help desk personnel that will receive questions.,
+TW27,Clear hours of availability need to be established.,
+TW3,"System has to have the flexibility to handle different scenarios, or ""what-if"" questions, or 1-10,2-10, and 5-10 drought events.",
+TW31,Need on-line help and training.,
+TW32,Need training material for in-house training.,
+TW35,Need to be able to save (or download) the results of queries into an outside system.,
+TW7,"Has to manage the metadata, and metadata has to be FGDC compliant.",
+EW18,Update interval protocols for updating different data types.,
+RW17,"Populate missing data in the database, especially permits and pumpage reports.",
+SW1,The results from queries need to be consistent and reliable over time.,
+SW14,The tools the system will use to access the data need to be better than what isavailable now.,
+SW8,The data has to be accurate.,
+EW3,"Application must fit into statutory time frames for evaluating permitting applications,so there must be a quick turn-around time.",
+TW28,Reasonable refresh rates.,
+TW30,Need to establish response rates if it will be on a web page.,
+SW13,"Data to support requirements must exist in the database, and be readily available.",
+TW21,Get compilable versions of code stored in SourceSafe.,
+TW22,Do not use SDE log files.,
+TW23,Be consistent in naming and terminology conventions.,
+TW24,"A web application is preferred. If ArcMap, has to be able to run in Citrix ArcView.",
+TW25,"If toolbars are written, must be in .dll format.",
+TW26,Consider the ease of deployment of application.,
+TW29,"Can extend the current District architecture, i.e. Oracle Spatial, if needed.",
+TW33,Need technical documentation for maintainability.,
+TW34,Follow District change management standards.,
+TW36,Do not join features based on the shape column.,
+TW5,System should be written in map.net ? either VB or C#.,
+TW6,Follow District programming standards.,

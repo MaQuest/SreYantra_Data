@@ -1,0 +1,96 @@
+﻿Requirement Identifier,description,,Verification Method(s),,Source,detail
+APAF-FR-01,The APAF system shall acquire from ESOC the telemetry data of the ASPERA-3 Experiment and Mars Express Orbit/Attitude.,,Demonstration,,ESOC Data Disposition system Interface Document,To automatically process the data on a daily basis.
+APAF-FR-02,The APAF system shall process all ASPERA-3 science data into IDFS data sets.,,Demonstration and Analysis,,"Proposal, NASA Discovery Office Program-Level Requirements","Section 4.1.1 of Program-Level Requirements, Baseline Science Requirements.
+APAF PDMP"
+APAF-FR-03,The APAF system shall process the engineering and ancillary information necessary for calibration and science validation into IDFS data sets.,,Demonstration and Analysis,,NASA Discovery Office Program- Level Requirements,"Section 4.5.1, Science Data Management"
+APAF-FR-04,"Intermediate files of cleaned-up ASPERA-3 and MEX OA
+telemetry shall be generated in the event that cleaned-up telemetry is not provided by ESOC.",,Demonstration and Analysis,,APAF Software Requirements Review Minutes,To support the ASPERA-3 team in meeting mission goals and objectives
+APAF-FR-05,"The ASPERA-3 and MEX OA
+telemetry data shall be stored on a local SwRI archive.",,Demonstration,,APAF Project Data Management Plan,For  data availability and re-processing
+APAF-FR-06,"The ASPERA-3 and MEX OA
+IDFS data sets shall be stored on a local SwRI archive.",,Demonstration,,APAF Project Data Management Plan,For  data availability and analysis
+APAF-FR-06a,Any APAF-generated intermediate files of ASPERA-3 and MEX OA cleaned-up telemetry shall be stored on a local SwRI archive.,,Demonstration,,APAF Software Requirements Review Minutes,"For data availability and re-processing, and to support the ASPERA-3 team"
+APAF-FR-07,Web-based displays of the most current ASPERA-3 data shall be provided for public view.,,Demonstration,,APAF Project Data Management Plan,E/PO and monitor instrument performance
+APAF-FR-08,Web-based displays defined by the ASPERA-3 team shall be provided where any available ASPERA-3 data (as opposed to just the most current) can be used for science analysis.,,Demonstration,,APAF Software Requirements Review Minutes,To support the ASPERA-3 team in meeting mission goals and objectives
+Requirement Identifier,Requirement Description,,Verification Method(s),,Source,Rationale & Comments
+APAF-FR-08a,The web-based displays defined by the ASPERA-3 team to be used for science analysis shall be password protected until the ASPERA-3 data is made public.,,Demonstration,,APAF Software Requirements Review Minutes,To support the ASPERA-3 team in meeting mission goals and objectives
+APAF-FR-09,The APAF ground data system shall have built-in error handling.,,Demonstration,,APAF  Project  Data Management Plan,For better data integrity
+"APAF-DR-01
+(Listed as a Delivery Requirement)","ASPERA-3 and MEX OA IDFS
+data and any APAF-generated intermediate files of ASPERA-3 and MEX OA cleaned-up telemetry shall be provided to all ASPERA-3 Co-I’s.",,Demonstration,,"NASA Discovery Office Program- Level Requirements
+APAF Software Requirements Review Minutes","Section 4.1.1, Baseline Science Requirements;
+To support the ASPERA-3 team in meeting MEX mission goals and objectives"
+"APAF-DR-05
+(Listed as a Delivery Requirement)",IDFS data access software developed by SwRI shall be made available to the ASPERA-3 Co-I’s.,,Demonstration,,APAF Software Requirements Review Minutes,To support the ASPERA-3 team in meeting mission goals and objectives
+"APAF-DR-06
+(Listed as a Delivery Requirement)",Science analysis software developed by SwRI to analyze IDFS-formatted data shall be made available to the ASPERA-3 Co-I’s.,,Demonstration,,APAF Software Requirements Review Minutes,To support the ASPERA-3 team in meeting mission goals and objectives
+APAF-DS-II-1,System Parameters,,,,"Programmers   Guide   to   the   ASPERA-3.org Web Server
+This  document  describes  the  configuration  of phobos.space.swri.edu,  which  is  the  computer to  be  used  for  the  development  of  the  APAF
+data system ESOC    Data    Disposition    system    Interface
+control Document (DDID)",
+APAF-DS-II-2,ASPERA-3 and Mars Express Orbit/Attitude Telemetry Data,,,,"ME-ESC-IF-5001
+Mars Express Space / Ground Interface Control Document (SGICD) (ESA Document) Packet Definitions (from FMI and UMU)",
+APAF-DS-II-3,Virtual Instrument Descriptions for the ASPERA-3 Experiment Data and the Mars Express Orbit/Attitude Data,,,,"APAF-SRS-15-03561
+APAF Software Requirements Specifications Program-Level       Requirements       for       the
+ASPERA-3 Mission of Opportunity Project The  Software  Design  Documents  shall  fully document       the       instrument       parameters,
+spacecraft parameters, and science information necessary for IDFS descriptions. The www.ASPERA-3.org web site is used for
+obtaining and reviewing IDFS information.",
+APAF-DS-II-4,Operator Input,,,,"APAF-OPD-15-03561
+APAF Operations Procedures Document",
+APAF-DS-OI-1,Distribution of ASPERA-3 and MEX OA IDFS Data Sets,,,,"APAF-PDMP-15-03561
+APAF Project Data Management Plan APAF-OPD-15-03561
+APAF Operations Procedures Document",
+APAF-DS-OI-2,System Logs,,,,"APAF-OPD-15-03561
+APAF Operations Procedures Document",
+APAF-DS-OI-3,Local Archive of ASPERA-3 and MEX OA Telemetry & IDFS Data,,,,"APAF-OPD-15-03561
+APAF Operations Procedures Document Local Archive Configuration Files",
+APAF-DS-OI-4,Web-based Displays,,,,"www.ASPERA-3.org APAF-OPD-15-03561
+APAF Operations Procedures Document",
+APAF-PR-01,The APAF system web server shall be password protected where appropriate to allow only pertinent ASPERA-3 team members access.,,Demonstration,,APAF Software Development Plan,"Section 10.0, Security Plan"
+APAF-CR-01,"There shall be a UNIX-based APAF system development computer.
+(Done: phobos.space.swri.edu)",,Demonstration,,APAF Software Development Plan,"Section 4.1.1, Hardware Resources"
+APAF-CR-02,There shall be a UNIX-based APAF system production computer with  an archival system.,,Demonstration,,APAF Software Development Plan,"Section 4.1.1, Hardware Resources"
+APAF-CR-03,"There shall be a web server for the APAF system.
+(Done: www.aspera-3.org)",,Demonstration,,APAF Project Data Management Plan,"For web-based displays, and for information exchange"
+APAF-CR-04,There shall be a network connection between SwRI and NISN.,,Demonstration,,"Proposal
+APAF Project Data Management Plan",For data transfers and distribution
+APAF-LR-01,SwRI shall provide APAF system maintenance.,,Demonstration,,NASA Discovery Office Program- Level Requirements,Section 4.4 – to satisfy mission needs
+APAF-LR-02,SwRI shall provide software support for the APAF system.,,Demonstration,,NASA Discovery Office Program- Level Requirements,Section 4.4 – to satisfy mission needs
+"APAF-DR-01
+(Also Listed in Functional Requirements)","ASPERA-3 and MEX OA IDFS
+data and any APAF-generated intermediate files of ASPERA-3 and MEX OA cleaned-up telemetry shall be provided to all ASPERA-3 Co-I’s.",,Demonstration,,"NASA Discovery Office Program- Level Requirements
+APAF Software Requirements Review Minutes","Section 4.1.1, Baseline Science Requirements;
+To support the ASPERA-3 team in meeting MEX mission goals and objectives"
+APAF-DR-01a,ASPERA-3 IDFS data that are electronically distributed shall be provided to the ASPERA-3 Co-I’s within 24 hours of acquiring ASPERA-3 telemetry as long as the transmission and processing are error-free.,,Demonstration,,APAF Software Requirements Review Minutes,To support the ASPERA-3 team in meeting mission goals and objectives
+APAF-DR-01b,MEX OA IDFS data that are electronically distributed shall be provided to the ASPERA-3 Co-I’s within 24 hours of acquiring MEX OA telemetry as long as the transmission and processing are error-free.,,Demonstration,,APAF Software Requirements Review Minutes,To support the ASPERA-3 team in meeting mission goals and objectives
+APAF-DR-01c,"Any APAF-generated intermediate files of ASPERA-3 and MEX OA cleaned-up telemetry that are electronically distributed shall be provided to the ASPERA-3 Co-I’s within 24 hours of acquiring ASPERA-3 and MEX OA
+telemetry as long as the transmission and processing are error-free.",,Demonstration,,APAF Software Requirements Review Minutes,To support the ASPERA-3 team in meeting mission goals and objectives
+APAF-DR-02,ASPERA-3 IDFS data and MEX OA IDFS data shall be provided to NASA PDS.,,Demonstration and Analysis,,NASA Discovery Office Program- Level Requirements,"Section 4.1.1, Baseline Science Requirements"
+APAF-DR-02a,ASPERA-3 data shall be provided to NASA PDS in PDS-compliant form.,,Analysis,,NASA Discovery Office Program- Level Requirements,"Section 4.5.1, Science Data Management"
+APAF-DR-02b,ASPERA-3 data shall be calibrated and validated prior to depositing in the NASA PDS.,,Analysis,,NASA Discovery Office Program- Level Requirements,"Section 4.5.1, Science Data Management"
+APAF-DR-02c,ASPERA-3 data shall be provided to NASA PDS no later than 6 months after acquisition.,,Demonstration,,NASA Discovery Office Program- Level Requirements,"Section 4.5.1, Science Data Management"
+APAF-DR-03,SwRI shall provide IDFS data processing algorithms to IRF.,,Demonstration,,NASA Discovery Office Program- Level Requirements,"Section 4.4, Ground System Requirements"
+APAF-DR-04,Science analysis software shall be integrated into the NASA approved data repository.,,Demonstration,,NASA Discovery Office Program- Level Requirements,"Section 4.5.2, Analysis Software"
+"APAF-DR-05
+(Also Listed in Functional
+Requirements)",IDFS data access software developed by SwRI shall be made available to the ASPERA-3 Co-I’s.,,Demonstration,,APAF Software Requirements Review Minutes,To support the ASPERA-3 team in meeting mission goals and objectives
+"APAF-DR-06
+(Also Listed in Functional Requirements)",Science analysis software developed by SwRI to analyze IDFS-formatted data shall be made available to the ASPERA-3 Co-I’s.,,Demonstration,,APAF Software Requirements Review Minutes,To support the ASPERA-3 team in meeting mission goals and objectives
+APAF-DR-07,How the ASPERA-3 and MEX OA data and exactly what data sets are to be distributed to each Co-I shall be determined by the needs and resources available six months prior to MEX launch.  The distribution mechanisms shall be clearly defined/described in the APAF Operation Procedures Document.,,Demonstration,,APAF Software Requirements Review Minutes,To support the ASPERA-3 team in meeting mission goals and objectives
+3.9,Other Requirements Considered,,,,"This  section  identifies  the  requirements  considered  but  not  part  of  the  APAF  ground  data  system requirements.
+",
+3.9.1,Required States and Modes,,,,"The APAF data system is not required to operate in more than one state or mode.
+",
+3.9.2,Adaptation Requirements,,,,"There are no installation-dependent requirements for the operation of the APAF data system.  However, if any are identified, they shall be documented in the APAF Operations Procedures Document.
+",
+3.9.3,Safety Requirements,,,,"The APAF data system will not impose hazards to personnel, property, or the environment.   Therefore, there are no safety requirements of the APAF ground data system.
+",
+3.9.4,Software Quality Factors,,,,"Although  the  APAF  data  system  and  associated  software  will  be  developed  with  the  highest  quality possible, there are no requirements concerned with software quality. Some of the software quality factors that  will  be  considered  when  developing  the  APAF  data  system  include:  reliability,  maintainability, availability, flexibility, portability, testability, and usability.
+",
+3.9.5,Design and Implementation Requirements,,,,"There are no requirements that constrain the design and implementation of the APAF software.
+",
+3.9.6,Personnel-Related Requirements,,,,"There are no identified requirements related to personnel that will use the software. However, the APAF Operations Procedures Document will aid personnel in the operational use of the APAF system.
+",
+3.9.7,Training-Related Requirements,,,,"Since the members of the SwRI software team are experienced with data system and IDFS processing
+",
+3.9.7,Training-Related Requirements,,,,"software development, there are no training-related requirements for developers of the APAF data system. In  addition,  the  APAF  Operations  Procedures  Document  shall  provide  installation  and  operations",

@@ -1,0 +1,672 @@
+(OUT OF DATE) Push To Talk 
+
+Business Requirements 
+
+Requested Implementation: PPT launch 
+
+Revision: 1 
+
+Published: 2017-03-22 
+
+1 Problem Statement 
+
+Increase the value of the G7 by making it a communication device. 
+
+2 Solution Details 
+
+Since the G7 has cell phone-like hardware, we will give it the capability to do push to talk (PTT). 
+Push to talk uses cell phone networks to give phones radio like capability. Without placing a 
+direct call, the user is able to press a single button to communicate with multiple phones on the 
+same channel. 
+
+ 
+
+We want to present this as a productivity tool. We don’t want it to be an SOC replacement. 
+
+ 
+
+Only the G7c will have the PTT feature section. The G7x, M6, M6i, IS, IS+, Arctic, SMD, Loner 
+Mobile, Bridge ect. will not have this feature. 
+
+3 Firmware 
+
+3.1 Channel Selection Menu 
+
+G7 will need a new menu option called “Push to talk” located at the top of the main menu. 
+
+ 
+
+
+Selecting this will bring the user to a new push to talk menu. The menu will have numbers listed 
+from 1 to 9. At the top there will be a “None” option. At the bottom of the list will be channel that 
+says will say “All-call”. 
+
+ 
+
+ 
+
+ 
+
+Like all menus on the G7, the arrow buttons will highlight the rows. If a user presses OK while a 
+row is highlighted, they will be transitioned to a new screen that says “Selecting channel. Please 
+wait...”. Once G7 hears back from the server that the channel is selected, the screen will confirm 
+the selection by showing the PTT icon with the channel below it for 2 seconds. Then it will go 
+back to the PTT menu.* Now the highlighted row will have the word “Selected” after the number. 
+For example “1 - Selected”. 
+
+ 
+
+ 
+
+ 
+
+Once a channel is selected, the user will receive all PTT communications from this channel. 
+
+ 
+
+The “None” channel is the default. Once a channel is selected, power cycling will not reset or 
+remove the selected channel for a particular G7. 
+
+ 
+
+*There will be edge cases where the device doesn’t hear back from the server or gets a NAK. 
+Let the UX team know about these and we’ll come up with some user digestible way of 
+displaying negative paths. 
+
+3.2 All-call 
+
+“All-call” is the name of a special channel that can be selected by the device user. This channel 
+is accessible in the same way the other numbered channels, from the device PTT menu. The 
+all-call channel can be thought of as the announcement or broadcast channel. When a device 
+
+
+has the all-call channel selected, all of its transmissions will be heard by all devices in the 
+organization, regardless of their channel selection. 
+
+a) A device can’t select all-call and a numbered channel at the same time. Only one 
+channel can be selected at a time. This goes for numbered channels as well. 
+b) If for example a device is set to channel 2, they will hear channel 2 conversations as well 
+as all-call broadcasts. When they transmit, only other devices on channel 2 will hear the 
+transmission. 
+c) A device can not turn off the ability to listen to the all-call channel. 
+d) There is no restriction on the number of devices that can be on the all-call channel at 
+one time. 
+e) Example: If an organization has tentwo devices and all ten of them are on all-call, then 
+all of the devices will transmit to the entire group. If Joe switches to channel 2, none of 
+the remaining nine will hear Joe’s transmissions. Joe will however here any transmission 
+from the remaining nine still on all-call. 
+
+
+3.3 Channel “None” 
+
+If a user has selected none, they will not hear transmissions from any numbered channel. They 
+will hear traffic from the all-call channel only. They will be unable to transmit to any channel. 
+
+3.4 Buttons and Beeping 
+
+PTT will have a hardware button for initiating an outgoing audio transmission. 
+
+ 
+
+Pressing and holding the mapped PTT button will start an audio transmission. The user needs 
+to hold down the button while talking. Once the user is done with their transition they will release 
+the mapped button. 
+
+ 
+
+We want to keep these delays to a minimum so that the user feels the transition between 
+pressing and starting to talk is fast. (see functional requirements) 
+
+ 
+
+The beep sounds will bookend transmissions start and stop (tri-pulse). Receptions will also be 
+bookended with a different sound (mono-pulse). The transmission sound needs to be unique 
+because users will want to know if they are accidentally transmitting. Reception sounds are 
+unique so that users don’t need to say 10-4. This beeping should be parameterized on the FW. 
+Some users will want to disable one or the other beeping sounds. 
+
+3.5 Transmission Display 
+
+While pressing the PTT button the LCD will display the PTT icon with the channel information 
+below it. For example “Channel 7”. When all-call is selected it will say “All-call” (I haven’t 
+updated the graphic below with the dash). When “None” is selected it will say “No channel 
+selected”. 
+
+
+ 
+
+3.6 Transmission Timeout 
+
+The maximum time for a PTT transmission will be 30 seconds. After that, the device will beep 
+and automatically end the transmission. The user will need to release then repress the mapped 
+button to start another transmission. 
+
+3.7 Priority 
+
+Some sounds will be muted during an audio transmission and some will not. The PTT 
+functionality will use the same rules as a voice call. For example, (if I recall correctly) a high/OL 
+gas alert will trump a voice call where as a warning alarm will not. 
+
+ 
+
+Incoming PTT transmissions will be played at the same time as alarm sounds. The incoming 
+transmission will likely be unintelligible because of the overlapped alarm, but the user will know 
+that they missed a transmission. All gas readings and sensors still need to be active during all 
+PTT transactions. 
+
+ 
+
+After some discussion it was decided that PTT will be disabled if the device is making noises 
+due to being in alarm/alert. Once the device stops making noises PTT will be enabled. An 
+alarm/alert does not have to be resolved just the noise from it has to be muted in order for PTT 
+to work. 
+
+ 
+
+Voice calls trump and mute all PTT transactions. 
+
+ 
+
+When two transmissions arrive at the device in unison, ideally they will be played at the same 
+time. Both incoming transmission will likely be unintelligible but the user will know that two or 
+more people on the channel where talking at the same time. 
+
+ 
+
+This needs to change so that the first person to grab the channel gets to transmit on it. The 
+server decides who has the channel by the detecting data from a device. The server will also 
+have to have some mechanism such as a timeout to release the channel (firmware will include 
+last message in transmission as well) 
+
+ 
+
+
+When a user is recording an outgoing transmission, incoming transmissions should be muted. 
+That’s how radios work. 
+
+Commented [1]: how does this interact with an all-call 
+transmission? does an all-call interrupt all active 
+transmissions on numbered channels? or if numbered 
+channels have priority, does the transmission to the all-
+call channel fail if any numbered channel is active? 
+
+Commented [2]: From discussion with Phil an All Call 
+is not a high priority channel. It will obey the same rules 
+as any channel. Some devices might not receive the all 
+call if they have pending rx audio when the All Call is 
+triggered 
+
+Commented [3]: Added link 
+
+
+
+ 
+
+With our current design, if you are on a channel that has currently been seized by a device you 
+will not be able to transmit until the other device finishes. An error should be raised to user to 
+indicate you can't transmit. You will hear the message being transmitted on seized channel 
+
+ 
+
+High level server to device sequence diagrams are available here: 
+
+<https://drive.google.com/drive/u/0/folders/0B-xlwCweOpbob0dpMXNVTmU0VDA?ths=true> 
+
+ 
+
+3.8 Start Up 
+
+On power up we will have a new functional settings icon with the text “Push to talk”. It should 
+also indicate the button mapping, the same way it does for SOS and Silent SOS. It will get 
+complicated with multiple buttons mapped, but we’ll cross that bridge when we get to it. We 
+might not even need to deal with it because for the initial implementation we’ll be very 
+prescriptive about which buttons are mapped with PTT. 
+
+ 
+
+3.9 Info Bar 
+
+On the normal operation screen we will show which channel the device is set on. This will be 
+displayed between the battery icon and the check-in countdown timer. There will be a “ch.” 
+followed by the channel number. For example “ch.5”. The all-call channel will be “ch.AC”. 
+
+ 
+
+
+a) All PTT functionality: A device can have all PTT functionality disabled. Nothing will be 
+shown in the menu. They will not hear the all-call transmissions. 
+b) Displaying the PTT menu: A device can hear the all-call channel but they cannot see 
+the PTT menu or select a channel. They will still have the “Push to talk” feature icon on 
+start up. 
+c) Ability to select all-call channel: A device can hear the all-call channel, see the PTT 
+menu, select None and channels 1-9. They can not select all-call. 
+d) Toggle on/off the transmit beeps: Ability to turn off the beeps that bookend 
+transmission from the device. 
+e) Toggle on/off the receive transmission beeps: Ability to turn off the beeps that 
+bookend receiving a transmission from the device. 
+f) Button mapping: Parameterize all button mapping. Any device initiated function (PTT, 
+SOS, Silent SOS or Early Check-in) could be mapped to any button (up arrow, down 
+arrow, OK, latch push, latch pull). Exceptions being that PTT doesn’t make sense for 
+latch pull and no functions can be mapped to the power button. Only one button 
+mappable function can be mapped to a button at one time, however the same function 
+can be mapped to multiple buttons. 
+g) Channel selection: Ability to configure which devices have access to which channels. 
+Not all devices can have access to all channels. 
+h) Custom channel naming: From the portal, channels can be given short custom names. 
+These names will also show up on the device. 
+
+
+
+
+
+3.10 Volume 
+
+We don’t want users to have to alter the volume from their device it we can help it. We also 
+don’t want this to be a configuration setting if we can help it. The goal is to make this similar to 
+voice calling, we set a volume and it works great. For development maybe this is a menu 
+parameter, I’ll leave that to FW. 
+
+3.11 Configuration Parameters 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Commented [4]: I suggest we do not make this 
+configurable. these options could make training and 
+troubleshooting far more difficult 
+
+ 
+
+ 
+
+4 Software 
+
+4.1 Configuration Page 
+
+To begin, we won’t have a portal configuration page specific to PTT. As you can see from the 
+above section “Configuration Parameters”, there are a number of parameters which may 
+
+
+someday need configuration selections. To start, if a device has a PTT service plan, they get 
+everything. As follow up phases to the project we will add more configuration settings to the 
+portal to begin, we will choose as many defaults as possible. 
+
+4.2 Default Button Mapping 
+
+The firmware is going to parameterize the button mapping so it will fall to the software to tell it 
+how to map buttons. To start, we will be restrictive about this. When PTT is available on a 
+device, the PTT transmit button will be latch press. 
+
+ 
+
+If early check-in is enabled at the same time as PTT, the act of transmitting will be considered a 
+check-in. The user won’t need to hold down the latch for 3 seconds, the device won’t vibrate, 
+the screen won’t show the check-in successful screen, it won’t make the check-in successful 
+beep. The device will however reset the reminder countdown on the device and send an early 
+check-in message to the portal. 
+
+Commented [5]: so the PTT server cannot be 
+completely standalone... we need to interact with the 
+portal on each transmission so it can decide whether a 
+check-in has occurred 
+
+Commented [6]: +kjohnson@blacklinesafety.com 
+Could you confirm the name of the PTT service plans 
+please. 
+
+_Assigned to Kirk Johnson_ 
+
+Commented [7]: This needs some thought. Linking 
+functionality to the service plan may be tricky. It might 
+be better to have a setting on the config that turns PTT 
+on. Need to discuss with devs. 
+
+
+
+ 
+
+If silent alert on latch push is enabled at the same time as PTT, the silent alert will be overridden 
+and not function at all. Since it will be possible to have a mix of PTT and non-PTT devices in the 
+same configuration, it will be difficult to intelligently disable Silent SOS. To begin, we’ll add a 
+static warning message to the Silent SOS setting that tells the user this won’t work with PTT. 
+When we review configurations with the secondary config project we may choose to do 
+something more dynamic, but not for the first implementation. 
+
+ 
+
+If the device already has early check-in enabled, that will move to the OK button. If the device 
+already has silent SOS is set to latch press, that will be moved to the OK button. As the 
+configuration page stands today a user can’t have silent SOS on latch press and early check-ins 
+configured at the same time, so this doesn’t change. 
+
+ 
+
+At some point we will add text to the configuration page explaining this button mapping, but not 
+until will have thoroughly tested PTT and confirmed how it will function in the field. 
+
+4.3 Service Plans 
+
+There will be two new device service plans. Voice + PTT (formally known as silver) and 
+Blackline monitored voice + PTT (formally known as gold). Kirk will need to confirm naming 
+conventions. Both of these plans include voice. This needs to be shown and selectable in the 
+portal the same way all of our other service plans are. This service plan will give all of the 
+functionality of a voice plan, with the added features of PTT. 
+
+ 
+
+Since the portal will know what service plan a device has, the portal will need to tell the device 
+whether or not to display PTT options. This can be bundled into the config message or sent as a 
+separate message. Work with Firmware on this. 
+
+
+4.4 Organization Specific 
+
+Commented [8]: How do channels work on the 
+server? If a device is broadcasting on Channel 2 what 
+does the server do? 
+
+Commented [9]: +kjohnson@blacklinesafety.com 
+Could you confirm pricing? At least as a starting point. 
+
+_Assigned to Kirk Johnson_ 
+
+
+
+For phase 1, PTT channels are organization specific. Meaning that a device in organization A 
+on channel 1 can not hear or speak with a device in organization B on channel 1. 
+
+ 
+
+This is phase 1 because there is a risk that too many devices using the same channel will 
+“break” the system. We touch on this risk in the 2017-04-21 meeting notes below. For this 
+reason it is important that the system “fail gracefully”. Meaning that if the system becomes 
+overloaded at any point (device, server, cell tower) the entire system does not shut down. PTT 
+messages can be “lost” but alert messages can not. We need to understand the ramifications of 
+overload failures because we don’t yet understand the technical limitations of the system 
+therefore run the risk of surpassing them. 
+
+ 
+
+Once we learn more about the system we can “throttle” the number of devices using a set of 
+channels. This would be a Phase 2 activity. The basic idea is that a single organization can 
+have multiple channel sets. Different devices could be assigned to a different channel set. Each 
+channel set would have a cap, limiting the number of devices able to use it. 
+
+4.5 Functional Requirements 
+
+When pressing the PTT button the beep sound will start immediately. The initial beep should be 
+500 ms. If this is a tri-tone, (three pulses strung together) The user will hold down for all three 
+pulses 750 ms, so 250 ms per pulse, and this will begin the transmission. If the user briefly 
+holds down the button for, say <500 ms, Then you will only hear half the tone. 
+
+ 
+
+Use this beeping time to build your buffer and initiate the PTT. 
+
+ 
+
+Total time of latency between a user talking and their channel members hearing should be 2 
+seconds. From first word spoken to first word heard including the receiving beeps. Including 
+beeps. Use the beeps as buffer, start the PTT initiation immediately. 
+
+ 
+
+Note: A regular phone call is 500 ms. 
+
+ 
+
+We expect the same voice quality as the current call functionality. 
+
+ 
+
+Mono sound is fine. 
+
+4.6 Pricing 
+
+(Kirk to confirm) An IS Motorola radio is $700. Goal is PTT is +$30/mo to your service plan on 
+a device. This would be $1,080 for three years. That’s pre-discount. Customers won’t really pay 
+this. If we end up at $10 MSRP we failed. $20 feels like the right answer but we are going to 
+start a little higher and see how we can achieve that stretch goal. 
+
+ 
+
+
+Idea: Enterprise model. Organizational PTT. Pay for minute packages. The more you use it the 
+more you get builded. As you use it more that price goes up. Small companies that use it a lot 
+will pay the same as large companies that use it rarely. This is a similar concept to what we 
+want to do for Loner mobile. Maybe if you have +300 units you are eligible for the enterprise 
+option. 
+
+ 
+
+5 Future Features 
+
+5.1 Custom channel selection and naming 
+
+The device and server side routing tables will support 0-99 channels. We’ll only start with 0-9. 
+Deciding which channels will be displayed on the device will be decided by the portal device 
+config. 
+
+ 
+
+We would like to name the channels using the portal device config. For example channel 4 
+might be called “welding group”. 
+
+ 
+
+Considering the above feature request, here is an example. A team manager can go into the 
+portal and decide that 10 devices are going to have access to 3 channels. The manager 
+chooses to give the devices access to channel 3, 7 and 8. The manager then gives the 
+channels short custom names Alpha, Beta, Gamma. When the employees look at their devices 
+they won’t see 1, 2, 3, 4 etc. They will see 3-Alpha, 7-Beta, 8-Gamma. If a device selects 7-
+Beta, their G7 status screen will show Ch.7 at the top. 
+
+5.2 Loner Mobile integration 
+
+Loner Mobile should be able to use this same PTT system and be able to communicate with G7 
+devices on the same channels. 
+
+5.3 Portal direct communication 
+
+Monitoring personnel with a headset should be able to use their computer to listen to and 
+communicate on PTT channels with G7 and Loner Mobile devices. Essentially the web interface 
+becomes it’s own PTT device capable of sending and receiving. 
+
+5.4 Voice to text 
+
+The portal should be able to transcribe PTT voice communications into written text. Blackline 
+would be able to search this information to better understand how customers are using the 
+system. This could be used after an alert to review as notes, but we will want to be very careful 
+
+
+how much of this we display in the customer facing portal UI until we are confident in the 
+accuracy of the transcribed text. 
+
+5.5 Natural language speech recognition - Amazon Lex 
+
+Instead of PTT, a device user can talk to Lex (or Google Assistent). The device user could say 
+
+. “Change my configuration to SCBA for 30 minutes” 
+. “Clear my peak readings” 
+. “I’m entering a high danger area” or I’m leaving a high danger area” 
+
+
+When the device detects a potential fall it could as “I’ve detected a fall, are you ok?” and the 
+user could respond “Yes” to stand down the pending alarm. 
+
+ 
+
+Meeting Notes 
+
+5.6 2017-04-21 
+
+Phil . Sean . Barry . Charlie . Cody . Kelly . Steve 
+
+5.7 Questions 
+
+. What is the total estimated number of customers using PTT? This is total in the system, 
+not on the same channel set. (channel set or pool, describes devices when channel 1 is 
+the same for multiple devices. The all-call with reach all devices in the same channel 
+set) 
+. From a business perspective we don’t want an upper limit on this. If customers 
+want millions of them we are happy to support that. 
+. We should aim for a user base of 100,000 before a re-architecture is required. 
+
+
+
+. How many devices can share a channel set at one time? 
+. The portal aims for 5,000 per org. Having that many users on a channel set 
+poses technical issues and usability issues. We are not trying to achieve 5,000. 
+. Even 100 devices on the same channel set is a lot. This should be our upper 
+limit. 
+. MVP (minimum viable product) will be 25 devices on the same channel set. 
+
+
+
+. How many can be on the all-call channel at one time? 
+. If we have to limit the number of devices set to all-call due to technical limitations 
+we can have a limit of 5. From a usability point of view we would prefer to not 
+force this limitation. It will become unusable from a practical perspective, making 
+it almost self-officiated. If we have to limit it, we’ll come up with a way for the 
+server to NAK (reject) a device request to use the all-call and display a message 
+to that effect. 
+
+
+
+. How do we define a channel set? Organization, Group or Other? 
+
+
+Commented [10]: We also need to know how the 
+device users will use PTT. The upper bound is that 
+there is continuous traffic on each channel. 
+
+Commented [11]: I'm not clear on this. My thinking is 
+this limit is defined by the above parameters. That is, 
+100 devices max in one channel set (which has 100 
+channels). Transmitting on the All-Channel goes to all 
+devices in the channel set. Therefore the limit of the all-
+channel is 100 devices. 
+
+ 
+
+Is this what you are thinking Phil? 
+
+Commented [12]: we should call this solution 
+abandoned right away. By setting the channel set at 
+the organization level we would restrict a large and 
+probably geographically diverse organization to only 8 
+channels. 
+
+I think groups is the way to go in order to enable the 
+solution to scale. We can limit each user to a single 
+PTT group. 
+
+
+
+
+. Channel sets are described above as being determined by the organization. With 
+5,000 devices in an org this isn’t reasonable. 
+. Groups was pitched as an idea, and as a lot of appeal. The main problem is the 
+venn-diagram effect. Devices can be in multiple groups at one time. 
+. We’ll probably need to define a separate way to assign a channel set. This could 
+be through a configuration, which would be clean, but perhaps limiting if the 
+company wants to have two different configurations on the same channel set. 
+Alternatively, channel sets could be an option within a device configuration. That 
+is the most flexible, but introduces another layer of complexity for users. 
+. If we limit the number of users in a channel set, this will need to be handled by 
+the server. It will need some UI to let customers know when and why this is being 
+limited. 
+
+
+
+
+
+5.8 Risks 
+
+. Data plan on device sims 
+. There is a risk of the cost being high. We may need a new plan. May need to go 
+back to pooling. To mitigate this, Kevin Meyers has been asked to look into the 
+options if/when we need more data. 
+. Risk in latency issues. FW is concerned that our SIM plans might throttle data 
+depending on the carrier our SIM is using. 
+
+
+
+. Inconsistent latency 
+. Latency will depend on time of day, number of users, location. 
+. We won’t be able to guarantee a maximum latency to customers. 
+
+
+
+. Voice Quality 
+. Very best case, it will be the same as a voice call. But this is not expected and 
+it’s all downhill from there. 
+
+
+
+. Battery drain 
+. Depends how much someone uses PTT. We’re unsure of the impact but it 
+sounds like low risk for the expected use cases. 
+
+
+
+. Server message priority 
+. Currently the server doesn’t prioritize messages. With the increase in server 
+traffic this may be the point where we don’t just spend more money on a bigger 
+server, we prioritize important messages like alerts. 
+
+
+
+. Single VPN pipe 
+. We only have one VPN machine at Amazon. This already keeps Ray up at night 
+because it is a single point of failure with no back up. 
+. With the added load on the VPN it would be a good time to pay for the extra pipe. 
+It will lower our risk for all traffic, not just PTT. 
+
+
+
+. In bed with Telnor 
+. This project will make it a little harder to move away from Telenor if we have to. 
+Not impossible though. Once we figure it out with them, we could figure it out with 
+another carrier. 
+. We’re more tied to Telenor because of the SIMs in the field. 
+
+
+
+
+
+
+. Does this make us a “telecommunication provider”? 
+. If so there are requirements, for example law enforcement might want access to 
+our transmissions. 
+. Scott Jacobson raised this issue and is looking into it. 
+
+
+
+
+
+5.9 Technical Choices 
+
+. Mixing two transmissions at the same time. 
+. FW was planning on handling the mixing of multiple transmissions that arrive at 
+the device simultaneously. A maximum of 3 would be compiled together at once. 
+. Alternatively SW could handle the mixing and send that out to the device or 
+devices receiving them. 
+. The customer won’t see a difference between these two methods. It will be a 
+technical choice made by FW and SW. 
+. No mixing is planned anymore. 
+
+
+
+
+
+ 
+
+ 
+
+
