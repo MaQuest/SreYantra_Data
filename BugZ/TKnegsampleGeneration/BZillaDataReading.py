@@ -24,7 +24,7 @@ INPUT = "./negTasksAndEnhancements.json"
 STAGE1_OUTPUT = "AllIndependentData.csv"
 
 STAGE2_INPUT = "AllIndependentData.csv"
-STAGE2_OUTPUT = "AllIndependentData.csv"
+STAGE2_OUTPUT = "AllIndependentPairs.csv"
 
 
 REST_API = "https://bugzilla.mozilla.org/rest/bug/" # 1575284
