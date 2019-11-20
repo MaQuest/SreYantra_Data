@@ -1,0 +1,67 @@
+,Project,Cross-Project Dependencies
+0,Core,"['SeaMonkey', 'Firefox', 'Toolkit', 'Camino Graveyard', 'Firefox for Android Graveyard', 'Core Graveyard', 'MailNews Core', 'Thunderbird', 'Documentation Graveyard', 'Firefox Build System', 'NSS', 'WebExtensions', 'DevTools', 'mozilla.org', 'Infrastructure & Operations', 'Socorro', 'Testing', 'support.mozilla.org', 'Marketing', 'GeckoView', 'bugzilla.mozilla.org', 'Shield', 'Cloud Services', 'Add-on SDK Graveyard', 'Data Science', 'L20n', 'Data Platform and Tools', 'Firefox for Android', 'DevTools Graveyard', 'Release Engineering', 'Web Compatibility', 'Remote Protocol', 'Firefox Graveyard', 'External Software Affecting Firefox', 'Calendar', 'Tree Management', 'Other Applications', 'Testing Graveyard', 'Developer Services', 'Webtools', 'Infrastructure & Operations Graveyard', 'www.mozilla.org']"
+1,MailNews Core,"['Thunderbird', 'Core Graveyard', 'SeaMonkey', 'Core', 'NSS', 'Penelope Graveyard', 'Firefox', 'Toolkit', 'NSPR']"
+2,Firefox,"['SeaMonkey', 'Core', 'Core Graveyard', 'Toolkit', 'Cloud Services', 'Invalid Bugs', 'Firefox Build System', 'support.mozilla.org', 'WebExtensions', 'DevTools', 'Web Compatibility', 'Firefox Graveyard', 'Testing', 'NSS', 'Shield', 'www.mozilla.org', 'Data Science', 'GeckoView', 'Data Platform and Tools', 'Release Engineering', 'bugzilla.mozilla.org', 'External Software Affecting Firefox', 'Localization Infrastructure and Tools', 'Mozilla Labs', 'Thunderbird', 'Mozilla Localizations', 'Firefox for Android', 'User Research', 'Socorro', 'Webtools']"
+3,SeaMonkey,"['Firefox', 'Core Graveyard', 'Core', 'Toolkit', 'Camino Graveyard', 'Toolkit Graveyard', 'MailNews Core', 'Thunderbird', 'Other Applications', 'Testing Graveyard', 'Calendar', 'Firefox Build System', 'DevTools']"
+4,Thunderbird,"['SeaMonkey', 'MailNews Core', 'Core', 'Firefox', 'Penelope Graveyard', 'Calendar', 'Toolkit Graveyard', 'NSPR', 'Toolkit', 'Infrastructure & Operations', 'Instantbird', 'Chat Core', 'WebExtensions', 'DevTools', 'Firefox Build System', 'Taskcluster Graveyard', 'Taskcluster', 'Release Engineering', 'Developer Services']"
+5,DevTools,"['Core', 'Infrastructure & Operations', 'DevTools Graveyard', 'Taskcluster', 'Testing', 'Cloud Services', 'Toolkit', 'Firefox', 'Data Platform and Tools', 'Firefox Build System', 'WebExtensions', 'Tree Management']"
+6,Core Graveyard,"['SeaMonkey', 'Core', 'MailNews Core', 'Firefox', 'Thunderbird', 'DevTools', 'Toolkit', 'Toolkit Graveyard', 'Internet Public Policy', 'Camino Graveyard', 'Firefox Graveyard']"
+7,Firefox for Android Graveyard,['Core']
+8,Camino Graveyard,"['Core', 'Firefox', 'MailNews Core']"
+9,Toolkit,"['SeaMonkey', 'Testing Graveyard', 'Core', 'Firefox', 'WebExtensions', 'support.mozilla.org', 'Data Science', 'Cloud Services Graveyard', 'DevTools', 'Firefox for Android', 'Data Platform and Tools', 'Cloud Services', 'Mozilla Localizations', 'Socorro', 'Testing', 'External Software Affecting Firefox', 'Firefox Build System', 'Thunderbird', 'GeckoView', 'Release Engineering', 'Firefox Graveyard', 'Web Compatibility', 'Infrastructure & Operations', 'mozilla.org Graveyard', 'mozilla.org', 'Calendar']"
+10,WebExtensions,"['Core', 'Toolkit', 'Remote Protocol', 'Firefox for iOS', 'Firefox', 'DevTools', 'Data Platform and Tools', 'www.mozilla.org', 'GeckoView', 'Thunderbird', 'Testing', 'Firefox Build System']"
+11,bugzilla.mozilla.org,"['Bugzilla', 'Conduit', 'Cloud Services', 'Core', 'Firefox Graveyard', 'Firefox']"
+12,Penelope Graveyard,"['MailNews Core', 'Thunderbird']"
+13,Bugzilla,"['bugzilla.mozilla.org', 'SeaMonkey']"
+14,Marketing,"['Documentation Graveyard', 'www.mozilla.org', 'SeaMonkey', 'Firefox', 'mozilla.org', 'Infrastructure & Operations Graveyard', 'Snippets', 'Bugzilla', 'bugzilla.mozilla.org', 'Core', 'mozilla.org Graveyard', 'developer.mozilla.org', 'Websites', 'Infrastructure & Operations']"
+15,NSS,"['NSPR', 'mozilla.org', 'Core', 'Infrastructure & Operations']"
+16,mozilla.org,"['Bugzilla', 'Toolkit', 'Firefox Build System', 'Core', 'Privacy Graveyard', 'Cloud Services', 'NSS', 'Webtools', 'Taskcluster', 'bugzilla.mozilla.org', 'Firefox', 'Tree Management']"
+17,Firefox Build System,"['Core', 'MailNews Core', 'NSS', 'Testing', 'Firefox for Android', 'mozilla.org', 'DevTools', 'Toolkit', 'Firefox', 'Developer Services', 'Taskcluster', 'Localization Infrastructure and Tools', 'Infrastructure & Operations', 'Socorro', 'Conduit', 'Release Engineering', 'NSPR', 'WebExtensions', 'GeckoView', 'Webtools', 'Thunderbird', 'Core Graveyard', 'Taskcluster Graveyard', 'MozReview Graveyard', 'bugzilla.mozilla.org']"
+18,Testing,"['Core', 'Firefox Build System', 'Tree Management', 'Developer Services', 'Toolkit', 'DevTools', 'Core Graveyard', 'Firefox', 'Infrastructure & Operations', 'Taskcluster', 'GeckoView', 'Release Engineering', 'Firefox for Android', 'Conduit', 'bugzilla.mozilla.org']"
+19,Calendar,"['Thunderbird', 'MailNews Core', 'Toolkit Graveyard', 'SeaMonkey', 'Toolkit', 'Core']"
+20,Infrastructure & Operations,"['Infrastructure & Operations Graveyard', 'Core', 'bugzilla.mozilla.org', 'Firefox Build System', 'Taskcluster', 'Tree Management', 'Testing', 'Cloud Services', 'Release Engineering', 'mozilla.org Graveyard', 'mozilla.org', 'www.mozilla.org']"
+21,Developer Engagement,"['Privacy Graveyard', 'mozilla.org', 'Infrastructure & Operations Graveyard']"
+22,Firefox Graveyard,"['Firefox', 'Core', 'Infrastructure & Operations', 'Toolkit', 'Firefox Build System']"
+23,Hello (Loop),['Core']
+24,Enterprise Information Security,"['Data Platform and Tools', 'Cloud Services', 'Infrastructure & Operations Graveyard', 'Infrastructure & Operations']"
+25,Chat Core,"['Instantbird', 'mozilla.org', 'Thunderbird', 'MailNews Core']"
+26,Instantbird,['Chat Core']
+27,Infrastructure & Operations Graveyard,"['Infrastructure & Operations', 'Enterprise Information Security']"
+28,GeckoView,"['Core', 'Firefox', 'Firefox for Android', 'WebExtensions', 'Tree Management', 'Firefox Build System', 'Data Science', 'Toolkit', 'Testing', 'DevTools']"
+29,Developer Documentation,"['Core', 'DevTools', 'developer.mozilla.org']"
+30,Taskcluster,"['Participation Infrastructure', 'Firefox Build System', 'Infrastructure & Operations', 'Tree Management', 'Release Engineering', 'mozilla.org']"
+31,Community Building,['Participation Infrastructure']
+32,Release Engineering,"['Testing', 'Firefox Build System', 'Developer Services', 'Infrastructure & Operations', 'Taskcluster', 'Firefox for Android', 'Toolkit', 'Cloud Services', 'Firefox', 'GeckoView', 'Localization Infrastructure and Tools']"
+33,Mozilla Foundation,['Mozilla Foundation Communications']
+34,developer.mozilla.org,"['mozilla.org', 'Developer Documentation']"
+35,Firefox for Android,"['Firefox Build System', 'DevTools', 'Core', 'GeckoView', 'Testing', 'Infrastructure & Operations', 'Tree Management', 'Firefox', 'WebExtensions', 'Taskcluster', 'Toolkit', 'support.mozilla.org', 'support.mozilla.org - Lithium', 'Data Platform and Tools', 'Release Engineering', 'Mozilla Localizations', 'Data Compliance', 'Cloud Services', 'www.mozilla.org', 'bugzilla.mozilla.org']"
+36,support.mozilla.org,"['Infrastructure & Operations Graveyard', 'Core', 'Firefox']"
+37,Participation Infrastructure,"['Infrastructure & Operations', 'Infrastructure & Operations Graveyard', 'mozilla.org Graveyard']"
+38,Developer Services,"['Firefox Build System', 'Localization Infrastructure and Tools', 'Cloud Services', 'Taskcluster', 'Infrastructure & Operations', 'Conduit', 'Bugzilla']"
+39,Cloud Services,"['Toolkit', 'Release Engineering', 'Firefox', 'Socorro', 'www.mozilla.org', 'bugzilla.mozilla.org', 'Infrastructure & Operations Graveyard']"
+40,mozilla.org Graveyard,['Participation Infrastructure']
+41,Cloud Services Graveyard,['Data Platform and Tools']
+42,Localization Infrastructure and Tools,"['Developer Services', 'Firefox Build System', 'Thunderbird', 'Release Engineering', 'Webtools']"
+43,External Software Affecting Firefox,"['Core', 'Toolkit', 'Firefox']"
+44,L20n,['Core']
+45,Mozilla Localizations,"['Core', 'Firefox']"
+46,Data Platform and Tools,"['Focus-iOS', 'Core', 'Toolkit', 'Data Science', 'Shield', 'Cloud Services', 'DevTools', 'Firefox', 'GeckoView']"
+47,Socorro,"['Toolkit', 'Cloud Services', 'bugzilla.mozilla.org', 'Core', 'Firefox Build System', 'Firefox']"
+48,Snippets,['Firefox']
+49,Shield,"['Firefox', 'Data Science', 'Infrastructure & Operations', 'Firefox for Android', 'Data Platform and Tools', 'Core']"
+50,Tree Management,"['Testing', 'Webtools', 'mozilla.org', 'Taskcluster', 'bugzilla.mozilla.org']"
+51,Webtools,"['Firefox Build System', 'Developer Services']"
+52,Data Science,"['Toolkit', 'Shield', 'Core', 'Firefox', 'Data Platform and Tools', 'Testing']"
+53,Conduit,"['bugzilla.mozilla.org', 'Testing', 'Developer Services', 'Cloud Services']"
+54,Remote Protocol,['Testing']
+55,Documentation Graveyard,['Core']
+56,www.mozilla.org,"['Firefox', 'Firefox Build System']"
+57,Marketplace Graveyard,['Core']
+58,Add-on SDK Graveyard,['DevTools']
+59,DevTools Graveyard,"['DevTools', 'Firefox']"
+60,Toolkit Graveyard,"['Mozilla Labs', 'Core Graveyard', 'Thunderbird']"
+61,Web Compatibility,"['Firefox', 'Core']"
+62,Mozilla Foundation Communications,['Mozilla Foundation']
+63,Tamarin Graveyard,['Core Graveyard']
+64,Other Applications,['Core']
+65,addons.mozilla.org Graveyard,['Core']

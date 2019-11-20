@@ -23,12 +23,12 @@ def train_test_multi_class(x1_df,x2_df):
     x2_df = x2_df.sample(frac=1)
     train_x = x1_df.drop(columns = ["BinaryClass","MultiClass"])
     train_y = x1_df["MultiClass"]
-    train_y = train_y.replace("requires", 3)
-    train_y = train_y.replace("similar", 4)
+    train_y = train_y.replace("requires", 1)
+    train_y = train_y.replace("similar", 2)
     test_x = x2_df.drop(columns = ["BinaryClass","MultiClass"])
     test_y = x2_df["MultiClass"]
-    test_y = test_y.replace("requires", 3)
-    test_y = test_y.replace("similar", 4)
+    test_y = test_y.replace("requires", 1)
+    test_y = test_y.replace("similar", 2)
     return train_x, train_y, test_x, test_y
 
 def x_y_multiclass_split(df):
@@ -63,18 +63,17 @@ def create_classified_sets(train_x, test_x):
 ## if true, need to match indepedent
 
 
-def balance_train(df_name, df, foo):
-    train_i = df[(df["req1Product"] == df_name) & (df["BinaryClass"] == 0)]
-    train_d = df[(df["req1Product"] == df_name) & (df["BinaryClass"] == 1)]
+def balance_train(df):
+    train_i = df[(df["BinaryClass"] == 0)]
+    train_d = df[(df["BinaryClass"] == 1)]
     
     independent = len(train_i)
     dependent = len(train_d)
 
-    if foo:
+    if (independent > dependent):
         train_x = train_d.append(train_i.head(dependent))
     else:
         train_x = train_i.append(train_d.head(independent))
         
     return train_x
    
-        
