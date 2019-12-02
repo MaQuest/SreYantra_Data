@@ -1,0 +1,1404 @@
+,Train Project,Test Project,Prediction Score
+0,Core,MailNews Core,0.77
+1,Core,SeaMonkey,0.84
+2,Core,Bugzilla,0.67
+3,Core,Firefox,0.84
+4,Core,Other Applications,0.79
+5,Core,NSS,0.58
+6,Core,Calendar,0.76
+7,Core,Thunderbird,0.78
+8,Core,Marketing,0.79
+9,Core,Toolkit,0.84
+10,Core,NSPR,0.33
+11,Core,mozilla.org,0.96
+12,Core,Testing,0.90
+13,Core,Firefox Build System,0.89
+14,Core,Socorro,0.71
+15,Core,DevTools,0.80
+16,Core,developer.mozilla.org,0.72
+17,Core,Participation Infrastructure,0.87
+18,Core,www.mozilla.org,1.00
+19,Core,Infrastructure & Operations,0.86
+20,Core,Developer Engagement,0.83
+21,Core,Enterprise Information Security,0.73
+22,Core,Instantbird,0.58
+23,Core,Chat Core,0.85
+24,Core,Mozilla Foundation Communications,0.79
+25,Core,Firefox for Android,0.80
+26,Core,Tree Management,0.89
+27,Core,Community Building,1.00
+28,Core,support.mozilla.org,0.41
+29,Core,bugzilla.mozilla.org,0.65
+30,Core,Developer Documentation,0.89
+31,Core,WebExtensions,0.72
+32,Core,Localization Infrastructure and Tools,0.88
+33,Core,Cloud Services,0.74
+34,Core,Firefox for iOS,0.77
+35,Core,Taskcluster,0.88
+36,Core,GeckoView,0.91
+37,Core,Release Engineering,0.87
+38,Core,Data Platform and Tools,0.96
+39,Core,Developer Services,0.91
+40,Core,Focus-iOS,0.83
+41,Core,Webtools,0.97
+42,Core,External Software Affecting Firefox,1.00
+43,Core,Conduit,0.42
+44,Core,Data Science,1.00
+45,Core,Shield,1.00
+46,Core,Remote Protocol,0.94
+47,Core,Testing Graveyard,0.00
+48,Core,Camino Graveyard,0.00
+49,Core,Core Graveyard,0.44
+50,Core,Cloud Services Graveyard,1.00
+51,Core,Firefox Graveyard,0.86
+52,Core,Add-on SDK Graveyard,1.00
+53,Core,Firefox for Android Graveyard,0.00
+54,Core,Toolkit Graveyard,0.25
+55,Core,Penelope Graveyard,0.00
+56,Core,Web Compatibility,0.00
+57,Core,Infrastructure & Operations Graveyard,1.00
+58,Core,DevTools Graveyard,0.91
+59,Core,Testopia,0.79
+60,Core,Directory,0.72
+61,MailNews Core,Core,0.67
+62,MailNews Core,SeaMonkey,0.70
+63,MailNews Core,Bugzilla,0.44
+64,MailNews Core,Firefox,0.68
+65,MailNews Core,Other Applications,0.50
+66,MailNews Core,NSS,0.80
+67,MailNews Core,Calendar,0.66
+68,MailNews Core,Thunderbird,0.65
+69,MailNews Core,Marketing,0.66
+70,MailNews Core,Toolkit,0.64
+71,MailNews Core,NSPR,0.59
+72,MailNews Core,mozilla.org,0.33
+73,MailNews Core,Testing,0.69
+74,MailNews Core,Firefox Build System,0.59
+75,MailNews Core,Socorro,0.52
+76,MailNews Core,DevTools,0.57
+77,MailNews Core,developer.mozilla.org,0.68
+78,MailNews Core,Participation Infrastructure,0.16
+79,MailNews Core,www.mozilla.org,1.00
+80,MailNews Core,Infrastructure & Operations,0.38
+81,MailNews Core,Developer Engagement,0.33
+82,MailNews Core,Enterprise Information Security,0.36
+83,MailNews Core,Instantbird,0.08
+84,MailNews Core,Chat Core,0.37
+85,MailNews Core,Mozilla Foundation Communications,0.37
+86,MailNews Core,Firefox for Android,0.65
+87,MailNews Core,Tree Management,0.70
+88,MailNews Core,Community Building,0.00
+89,MailNews Core,support.mozilla.org,0.35
+90,MailNews Core,bugzilla.mozilla.org,0.72
+91,MailNews Core,Developer Documentation,0.84
+92,MailNews Core,WebExtensions,0.71
+93,MailNews Core,Localization Infrastructure and Tools,0.51
+94,MailNews Core,Cloud Services,0.31
+95,MailNews Core,Firefox for iOS,0.56
+96,MailNews Core,Taskcluster,0.64
+97,MailNews Core,GeckoView,0.80
+98,MailNews Core,Release Engineering,0.42
+99,MailNews Core,Data Platform and Tools,0.83
+100,MailNews Core,Developer Services,0.58
+101,MailNews Core,Focus-iOS,0.00
+102,MailNews Core,Webtools,0.76
+103,MailNews Core,External Software Affecting Firefox,0.83
+104,MailNews Core,Conduit,0.61
+105,MailNews Core,Data Science,0.77
+106,MailNews Core,Shield,0.83
+107,MailNews Core,Remote Protocol,0.91
+108,MailNews Core,Testing Graveyard,0.00
+109,MailNews Core,Camino Graveyard,0.67
+110,MailNews Core,Core Graveyard,0.61
+111,MailNews Core,Cloud Services Graveyard,0.75
+112,MailNews Core,Firefox Graveyard,0.86
+113,MailNews Core,Add-on SDK Graveyard,1.00
+114,MailNews Core,Firefox for Android Graveyard,0.00
+115,MailNews Core,Toolkit Graveyard,0.25
+116,MailNews Core,Penelope Graveyard,0.75
+117,MailNews Core,Web Compatibility,1.00
+118,MailNews Core,Infrastructure & Operations Graveyard,0.67
+119,MailNews Core,DevTools Graveyard,0.82
+120,MailNews Core,Testopia,0.62
+121,MailNews Core,Directory,0.52
+122,SeaMonkey,Core,0.73
+123,SeaMonkey,MailNews Core,0.82
+124,SeaMonkey,Bugzilla,0.69
+125,SeaMonkey,Firefox,0.72
+126,SeaMonkey,Other Applications,0.64
+127,SeaMonkey,NSS,0.70
+128,SeaMonkey,Calendar,0.76
+129,SeaMonkey,Thunderbird,0.86
+130,SeaMonkey,Marketing,0.79
+131,SeaMonkey,Toolkit,0.65
+132,SeaMonkey,NSPR,0.61
+133,SeaMonkey,mozilla.org,0.87
+134,SeaMonkey,Testing,0.74
+135,SeaMonkey,Firefox Build System,0.66
+136,SeaMonkey,Socorro,0.54
+137,SeaMonkey,DevTools,0.57
+138,SeaMonkey,developer.mozilla.org,0.61
+139,SeaMonkey,Participation Infrastructure,0.73
+140,SeaMonkey,www.mozilla.org,0.77
+141,SeaMonkey,Infrastructure & Operations,0.48
+142,SeaMonkey,Developer Engagement,1.00
+143,SeaMonkey,Enterprise Information Security,0.64
+144,SeaMonkey,Instantbird,0.17
+145,SeaMonkey,Chat Core,0.65
+146,SeaMonkey,Mozilla Foundation Communications,0.57
+147,SeaMonkey,Firefox for Android,0.66
+148,SeaMonkey,Tree Management,0.64
+149,SeaMonkey,Community Building,0.00
+150,SeaMonkey,support.mozilla.org,0.24
+151,SeaMonkey,bugzilla.mozilla.org,0.48
+152,SeaMonkey,Developer Documentation,0.09
+153,SeaMonkey,WebExtensions,0.68
+154,SeaMonkey,Localization Infrastructure and Tools,0.78
+155,SeaMonkey,Cloud Services,0.62
+156,SeaMonkey,Firefox for iOS,0.66
+157,SeaMonkey,Taskcluster,0.75
+158,SeaMonkey,GeckoView,0.64
+159,SeaMonkey,Release Engineering,0.80
+160,SeaMonkey,Data Platform and Tools,0.63
+161,SeaMonkey,Developer Services,0.71
+162,SeaMonkey,Focus-iOS,1.00
+163,SeaMonkey,Webtools,0.62
+164,SeaMonkey,External Software Affecting Firefox,0.33
+165,SeaMonkey,Conduit,0.49
+166,SeaMonkey,Data Science,0.81
+167,SeaMonkey,Shield,1.00
+168,SeaMonkey,Remote Protocol,0.95
+169,SeaMonkey,Testing Graveyard,0.00
+170,SeaMonkey,Camino Graveyard,0.00
+171,SeaMonkey,Core Graveyard,0.50
+172,SeaMonkey,Cloud Services Graveyard,0.25
+173,SeaMonkey,Firefox Graveyard,1.00
+174,SeaMonkey,Add-on SDK Graveyard,1.00
+175,SeaMonkey,Firefox for Android Graveyard,1.00
+176,SeaMonkey,Toolkit Graveyard,0.25
+177,SeaMonkey,Penelope Graveyard,0.25
+178,SeaMonkey,Web Compatibility,0.00
+179,SeaMonkey,Infrastructure & Operations Graveyard,1.00
+180,SeaMonkey,DevTools Graveyard,0.91
+181,SeaMonkey,Testopia,0.71
+182,SeaMonkey,Directory,0.80
+183,Bugzilla,Core,0.66
+184,Bugzilla,MailNews Core,0.72
+185,Bugzilla,SeaMonkey,0.71
+186,Bugzilla,Firefox,0.66
+187,Bugzilla,Other Applications,0.43
+188,Bugzilla,NSS,0.63
+189,Bugzilla,Calendar,0.69
+190,Bugzilla,Thunderbird,0.76
+191,Bugzilla,Marketing,0.57
+192,Bugzilla,Toolkit,0.68
+193,Bugzilla,NSPR,0.56
+194,Bugzilla,mozilla.org,0.80
+195,Bugzilla,Testing,0.69
+196,Bugzilla,Firefox Build System,0.56
+197,Bugzilla,Socorro,0.48
+198,Bugzilla,DevTools,0.60
+199,Bugzilla,developer.mozilla.org,0.50
+200,Bugzilla,Participation Infrastructure,0.13
+201,Bugzilla,www.mozilla.org,1.00
+202,Bugzilla,Infrastructure & Operations,0.57
+203,Bugzilla,Developer Engagement,0.50
+204,Bugzilla,Enterprise Information Security,0.00
+205,Bugzilla,Instantbird,0.42
+206,Bugzilla,Chat Core,0.74
+207,Bugzilla,Mozilla Foundation Communications,0.68
+208,Bugzilla,Firefox for Android,0.67
+209,Bugzilla,Tree Management,0.49
+210,Bugzilla,Community Building,0.25
+211,Bugzilla,support.mozilla.org,0.35
+212,Bugzilla,bugzilla.mozilla.org,0.59
+213,Bugzilla,Developer Documentation,0.69
+214,Bugzilla,WebExtensions,0.57
+215,Bugzilla,Localization Infrastructure and Tools,0.65
+216,Bugzilla,Cloud Services,0.49
+217,Bugzilla,Firefox for iOS,0.53
+218,Bugzilla,Taskcluster,0.61
+219,Bugzilla,GeckoView,0.74
+220,Bugzilla,Release Engineering,0.47
+221,Bugzilla,Data Platform and Tools,0.78
+222,Bugzilla,Developer Services,0.85
+223,Bugzilla,Focus-iOS,0.83
+224,Bugzilla,Webtools,0.56
+225,Bugzilla,External Software Affecting Firefox,0.17
+226,Bugzilla,Conduit,0.32
+227,Bugzilla,Data Science,0.55
+228,Bugzilla,Shield,0.75
+229,Bugzilla,Remote Protocol,0.92
+230,Bugzilla,Testing Graveyard,0.00
+231,Bugzilla,Camino Graveyard,0.67
+232,Bugzilla,Core Graveyard,0.50
+233,Bugzilla,Cloud Services Graveyard,0.75
+234,Bugzilla,Firefox Graveyard,0.71
+235,Bugzilla,Add-on SDK Graveyard,1.00
+236,Bugzilla,Firefox for Android Graveyard,0.00
+237,Bugzilla,Toolkit Graveyard,0.25
+238,Bugzilla,Penelope Graveyard,0.00
+239,Bugzilla,Web Compatibility,0.00
+240,Bugzilla,Infrastructure & Operations Graveyard,0.00
+241,Bugzilla,DevTools Graveyard,0.64
+242,Bugzilla,Testopia,0.79
+243,Bugzilla,Directory,0.80
+244,Firefox,Core,0.81
+245,Firefox,MailNews Core,0.66
+246,Firefox,SeaMonkey,0.72
+247,Firefox,Bugzilla,0.49
+248,Firefox,Other Applications,0.62
+249,Firefox,NSS,0.45
+250,Firefox,Calendar,0.62
+251,Firefox,Thunderbird,0.65
+252,Firefox,Marketing,0.89
+253,Firefox,Toolkit,0.88
+254,Firefox,NSPR,0.64
+255,Firefox,mozilla.org,0.93
+256,Firefox,Testing,0.88
+257,Firefox,Firefox Build System,0.85
+258,Firefox,Socorro,0.82
+259,Firefox,DevTools,0.85
+260,Firefox,developer.mozilla.org,0.89
+261,Firefox,Participation Infrastructure,0.82
+262,Firefox,www.mozilla.org,1.00
+263,Firefox,Infrastructure & Operations,0.82
+264,Firefox,Developer Engagement,1.00
+265,Firefox,Enterprise Information Security,0.36
+266,Firefox,Instantbird,0.33
+267,Firefox,Chat Core,0.81
+268,Firefox,Mozilla Foundation Communications,0.57
+269,Firefox,Firefox for Android,0.93
+270,Firefox,Tree Management,0.90
+271,Firefox,Community Building,0.75
+272,Firefox,support.mozilla.org,0.71
+273,Firefox,bugzilla.mozilla.org,0.83
+274,Firefox,Developer Documentation,0.70
+275,Firefox,WebExtensions,0.89
+276,Firefox,Localization Infrastructure and Tools,0.86
+277,Firefox,Cloud Services,0.87
+278,Firefox,Firefox for iOS,0.82
+279,Firefox,Taskcluster,0.94
+280,Firefox,GeckoView,0.87
+281,Firefox,Release Engineering,0.84
+282,Firefox,Data Platform and Tools,0.96
+283,Firefox,Developer Services,0.75
+284,Firefox,Focus-iOS,0.83
+285,Firefox,Webtools,0.97
+286,Firefox,External Software Affecting Firefox,1.00
+287,Firefox,Conduit,0.81
+288,Firefox,Data Science,0.92
+289,Firefox,Shield,1.00
+290,Firefox,Remote Protocol,0.94
+291,Firefox,Testing Graveyard,0.00
+292,Firefox,Camino Graveyard,0.00
+293,Firefox,Core Graveyard,0.44
+294,Firefox,Cloud Services Graveyard,1.00
+295,Firefox,Firefox Graveyard,0.86
+296,Firefox,Add-on SDK Graveyard,1.00
+297,Firefox,Firefox for Android Graveyard,0.00
+298,Firefox,Toolkit Graveyard,0.25
+299,Firefox,Penelope Graveyard,0.50
+300,Firefox,Web Compatibility,1.00
+301,Firefox,Infrastructure & Operations Graveyard,0.67
+302,Firefox,DevTools Graveyard,1.00
+303,Firefox,Testopia,0.38
+304,Firefox,Directory,0.52
+305,Other Applications,Core,0.50
+306,Other Applications,MailNews Core,0.63
+307,Other Applications,SeaMonkey,0.72
+308,Other Applications,Bugzilla,0.66
+309,Other Applications,Firefox,0.47
+310,Other Applications,NSS,0.77
+311,Other Applications,Calendar,0.69
+312,Other Applications,Thunderbird,0.72
+313,Other Applications,Marketing,0.60
+314,Other Applications,Toolkit,0.40
+315,Other Applications,NSPR,0.74
+316,Other Applications,mozilla.org,0.32
+317,Other Applications,Testing,0.31
+318,Other Applications,Firefox Build System,0.33
+319,Other Applications,Socorro,0.12
+320,Other Applications,DevTools,0.28
+321,Other Applications,developer.mozilla.org,0.44
+322,Other Applications,Participation Infrastructure,0.82
+323,Other Applications,www.mozilla.org,0.00
+324,Other Applications,Infrastructure & Operations,0.19
+325,Other Applications,Developer Engagement,0.50
+326,Other Applications,Enterprise Information Security,0.00
+327,Other Applications,Instantbird,0.17
+328,Other Applications,Chat Core,0.10
+329,Other Applications,Mozilla Foundation Communications,0.06
+330,Other Applications,Firefox for Android,0.24
+331,Other Applications,Tree Management,0.38
+332,Other Applications,Community Building,0.00
+333,Other Applications,support.mozilla.org,0.35
+334,Other Applications,bugzilla.mozilla.org,0.21
+335,Other Applications,Developer Documentation,0.21
+336,Other Applications,WebExtensions,0.31
+337,Other Applications,Localization Infrastructure and Tools,0.22
+338,Other Applications,Cloud Services,0.15
+339,Other Applications,Firefox for iOS,0.14
+340,Other Applications,Taskcluster,0.35
+341,Other Applications,GeckoView,0.51
+342,Other Applications,Release Engineering,0.33
+343,Other Applications,Data Platform and Tools,0.11
+344,Other Applications,Developer Services,0.25
+345,Other Applications,Focus-iOS,0.00
+346,Other Applications,Webtools,0.32
+347,Other Applications,External Software Affecting Firefox,0.17
+348,Other Applications,Conduit,0.29
+349,Other Applications,Data Science,0.23
+350,Other Applications,Shield,0.17
+351,Other Applications,Remote Protocol,0.37
+352,Other Applications,Testing Graveyard,0.00
+353,Other Applications,Camino Graveyard,0.33
+354,Other Applications,Core Graveyard,0.28
+355,Other Applications,Cloud Services Graveyard,0.25
+356,Other Applications,Firefox Graveyard,0.29
+357,Other Applications,Add-on SDK Graveyard,1.00
+358,Other Applications,Firefox for Android Graveyard,0.00
+359,Other Applications,Toolkit Graveyard,0.00
+360,Other Applications,Penelope Graveyard,0.25
+361,Other Applications,Web Compatibility,0.00
+362,Other Applications,Infrastructure & Operations Graveyard,0.33
+363,Other Applications,DevTools Graveyard,0.09
+364,Other Applications,Testopia,0.62
+365,Other Applications,Directory,0.68
+366,NSS,Core,0.71
+367,NSS,MailNews Core,0.66
+368,NSS,SeaMonkey,0.62
+369,NSS,Bugzilla,0.59
+370,NSS,Firefox,0.66
+371,NSS,Other Applications,0.52
+372,NSS,Calendar,0.58
+373,NSS,Thunderbird,0.62
+374,NSS,Marketing,0.22
+375,NSS,Toolkit,0.70
+376,NSS,NSPR,0.60
+377,NSS,mozilla.org,0.72
+378,NSS,Testing,0.75
+379,NSS,Firefox Build System,0.76
+380,NSS,Socorro,0.45
+381,NSS,DevTools,0.64
+382,NSS,developer.mozilla.org,0.70
+383,NSS,Participation Infrastructure,0.26
+384,NSS,www.mozilla.org,1.00
+385,NSS,Infrastructure & Operations,0.47
+386,NSS,Developer Engagement,0.83
+387,NSS,Enterprise Information Security,0.45
+388,NSS,Instantbird,0.50
+389,NSS,Chat Core,0.67
+390,NSS,Mozilla Foundation Communications,0.88
+391,NSS,Firefox for Android,0.84
+392,NSS,Tree Management,0.75
+393,NSS,Community Building,0.00
+394,NSS,support.mozilla.org,0.59
+395,NSS,bugzilla.mozilla.org,0.64
+396,NSS,Developer Documentation,0.87
+397,NSS,WebExtensions,0.59
+398,NSS,Localization Infrastructure and Tools,0.49
+399,NSS,Cloud Services,0.38
+400,NSS,Firefox for iOS,0.74
+401,NSS,Taskcluster,0.49
+402,NSS,GeckoView,0.66
+403,NSS,Release Engineering,0.59
+404,NSS,Data Platform and Tools,0.73
+405,NSS,Developer Services,0.83
+406,NSS,Focus-iOS,0.33
+407,NSS,Webtools,0.21
+408,NSS,External Software Affecting Firefox,1.00
+409,NSS,Conduit,0.26
+410,NSS,Data Science,0.81
+411,NSS,Shield,0.67
+412,NSS,Remote Protocol,0.90
+413,NSS,Testing Graveyard,0.00
+414,NSS,Camino Graveyard,0.33
+415,NSS,Core Graveyard,0.61
+416,NSS,Cloud Services Graveyard,1.00
+417,NSS,Firefox Graveyard,0.86
+418,NSS,Add-on SDK Graveyard,0.00
+419,NSS,Firefox for Android Graveyard,1.00
+420,NSS,Toolkit Graveyard,0.25
+421,NSS,Penelope Graveyard,0.00
+422,NSS,Web Compatibility,1.00
+423,NSS,Infrastructure & Operations Graveyard,1.00
+424,NSS,DevTools Graveyard,0.36
+425,NSS,Testopia,0.42
+426,NSS,Directory,0.64
+427,Calendar,Core,0.59
+428,Calendar,MailNews Core,0.59
+429,Calendar,SeaMonkey,0.58
+430,Calendar,Bugzilla,0.57
+431,Calendar,Firefox,0.55
+432,Calendar,Other Applications,0.53
+433,Calendar,NSS,0.60
+434,Calendar,Thunderbird,0.58
+435,Calendar,Marketing,0.50
+436,Calendar,Toolkit,0.47
+437,Calendar,NSPR,0.43
+438,Calendar,mozilla.org,0.19
+439,Calendar,Testing,0.64
+440,Calendar,Firefox Build System,0.44
+441,Calendar,Socorro,0.25
+442,Calendar,DevTools,0.46
+443,Calendar,developer.mozilla.org,0.40
+444,Calendar,Participation Infrastructure,0.10
+445,Calendar,www.mozilla.org,0.69
+446,Calendar,Infrastructure & Operations,0.36
+447,Calendar,Developer Engagement,0.50
+448,Calendar,Enterprise Information Security,0.00
+449,Calendar,Instantbird,0.25
+450,Calendar,Chat Core,0.49
+451,Calendar,Mozilla Foundation Communications,0.32
+452,Calendar,Firefox for Android,0.49
+453,Calendar,Tree Management,0.45
+454,Calendar,Community Building,0.00
+455,Calendar,support.mozilla.org,0.24
+456,Calendar,bugzilla.mozilla.org,0.51
+457,Calendar,Developer Documentation,0.00
+458,Calendar,WebExtensions,0.52
+459,Calendar,Localization Infrastructure and Tools,0.51
+460,Calendar,Cloud Services,0.46
+461,Calendar,Firefox for iOS,0.70
+462,Calendar,Taskcluster,0.57
+463,Calendar,GeckoView,0.35
+464,Calendar,Release Engineering,0.54
+465,Calendar,Data Platform and Tools,0.45
+466,Calendar,Developer Services,0.51
+467,Calendar,Focus-iOS,1.00
+468,Calendar,Webtools,0.41
+469,Calendar,External Software Affecting Firefox,0.33
+470,Calendar,Conduit,0.74
+471,Calendar,Data Science,0.74
+472,Calendar,Shield,0.67
+473,Calendar,Remote Protocol,0.83
+474,Calendar,Testing Graveyard,1.00
+475,Calendar,Camino Graveyard,0.33
+476,Calendar,Core Graveyard,0.44
+477,Calendar,Cloud Services Graveyard,1.00
+478,Calendar,Firefox Graveyard,0.00
+479,Calendar,Add-on SDK Graveyard,0.00
+480,Calendar,Firefox for Android Graveyard,1.00
+481,Calendar,Toolkit Graveyard,0.00
+482,Calendar,Penelope Graveyard,0.00
+483,Calendar,Web Compatibility,0.00
+484,Calendar,Infrastructure & Operations Graveyard,0.00
+485,Calendar,DevTools Graveyard,0.09
+486,Calendar,Testopia,0.75
+487,Calendar,Directory,0.40
+488,Thunderbird,Core,0.72
+489,Thunderbird,MailNews Core,0.85
+490,Thunderbird,SeaMonkey,0.85
+491,Thunderbird,Bugzilla,0.72
+492,Thunderbird,Firefox,0.72
+493,Thunderbird,Other Applications,0.68
+494,Thunderbird,NSS,0.73
+495,Thunderbird,Calendar,0.80
+496,Thunderbird,Marketing,0.75
+497,Thunderbird,Toolkit,0.75
+498,Thunderbird,NSPR,0.69
+499,Thunderbird,mozilla.org,0.30
+500,Thunderbird,Testing,0.70
+501,Thunderbird,Firefox Build System,0.68
+502,Thunderbird,Socorro,0.71
+503,Thunderbird,DevTools,0.61
+504,Thunderbird,developer.mozilla.org,0.61
+505,Thunderbird,Participation Infrastructure,0.76
+506,Thunderbird,www.mozilla.org,0.23
+507,Thunderbird,Infrastructure & Operations,0.61
+508,Thunderbird,Developer Engagement,0.17
+509,Thunderbird,Enterprise Information Security,0.00
+510,Thunderbird,Instantbird,0.08
+511,Thunderbird,Chat Core,0.67
+512,Thunderbird,Mozilla Foundation Communications,0.56
+513,Thunderbird,Firefox for Android,0.74
+514,Thunderbird,Tree Management,0.61
+515,Thunderbird,Community Building,0.00
+516,Thunderbird,support.mozilla.org,0.47
+517,Thunderbird,bugzilla.mozilla.org,0.57
+518,Thunderbird,Developer Documentation,0.54
+519,Thunderbird,WebExtensions,0.71
+520,Thunderbird,Localization Infrastructure and Tools,0.47
+521,Thunderbird,Cloud Services,0.31
+522,Thunderbird,Firefox for iOS,0.60
+523,Thunderbird,Taskcluster,0.70
+524,Thunderbird,GeckoView,0.71
+525,Thunderbird,Release Engineering,0.54
+526,Thunderbird,Data Platform and Tools,0.59
+527,Thunderbird,Developer Services,0.73
+528,Thunderbird,Focus-iOS,0.67
+529,Thunderbird,Webtools,0.76
+530,Thunderbird,External Software Affecting Firefox,0.33
+531,Thunderbird,Conduit,0.37
+532,Thunderbird,Data Science,0.79
+533,Thunderbird,Shield,0.83
+534,Thunderbird,Remote Protocol,0.90
+535,Thunderbird,Testing Graveyard,0.00
+536,Thunderbird,Camino Graveyard,0.67
+537,Thunderbird,Core Graveyard,0.33
+538,Thunderbird,Cloud Services Graveyard,1.00
+539,Thunderbird,Firefox Graveyard,0.86
+540,Thunderbird,Add-on SDK Graveyard,1.00
+541,Thunderbird,Firefox for Android Graveyard,0.00
+542,Thunderbird,Toolkit Graveyard,0.00
+543,Thunderbird,Penelope Graveyard,0.00
+544,Thunderbird,Web Compatibility,0.00
+545,Thunderbird,Infrastructure & Operations Graveyard,0.00
+546,Thunderbird,DevTools Graveyard,1.00
+547,Thunderbird,Testopia,0.79
+548,Thunderbird,Directory,0.52
+549,Core,MailNews Core,0.77
+550,Core,SeaMonkey,0.84
+551,Core,Bugzilla,0.67
+552,Core,Firefox,0.84
+553,Core,Other Applications,0.79
+554,Core,NSS,0.58
+555,Core,Calendar,0.76
+556,Core,Thunderbird,0.78
+557,Core,Marketing,0.79
+558,Core,Toolkit,0.84
+559,Core,NSPR,0.33
+560,Core,mozilla.org,0.96
+561,Core,Testing,0.90
+562,Core,Firefox Build System,0.89
+563,Core,Socorro,0.71
+564,Core,DevTools,0.80
+565,Core,developer.mozilla.org,0.72
+566,Core,Participation Infrastructure,0.87
+567,Core,www.mozilla.org,1.00
+568,Core,Infrastructure & Operations,0.86
+569,Core,Developer Engagement,0.83
+570,Core,Enterprise Information Security,0.73
+571,Core,Instantbird,0.58
+572,Core,Chat Core,0.85
+573,Core,Mozilla Foundation Communications,0.79
+574,Core,Firefox for Android,0.80
+575,Core,Tree Management,0.89
+576,Core,Community Building,1.00
+577,Core,support.mozilla.org,0.41
+578,Core,bugzilla.mozilla.org,0.65
+579,Core,Developer Documentation,0.89
+580,Core,WebExtensions,0.72
+581,Core,Localization Infrastructure and Tools,0.88
+582,Core,Cloud Services,0.74
+583,Core,Firefox for iOS,0.77
+584,Core,Taskcluster,0.88
+585,Core,GeckoView,0.91
+586,Core,Release Engineering,0.87
+587,Core,Data Platform and Tools,0.96
+588,Core,Developer Services,0.91
+589,Core,Focus-iOS,0.83
+590,Core,Webtools,0.97
+591,Core,External Software Affecting Firefox,1.00
+592,Core,Conduit,0.42
+593,Core,Data Science,1.00
+594,Core,Shield,1.00
+595,Core,Remote Protocol,0.94
+596,Core,Testing Graveyard,0.00
+597,Core,Camino Graveyard,0.00
+598,Core,Core Graveyard,0.44
+599,Core,Cloud Services Graveyard,1.00
+600,Core,Firefox Graveyard,0.86
+601,Core,Add-on SDK Graveyard,1.00
+602,Core,Firefox for Android Graveyard,0.00
+603,Core,Toolkit Graveyard,0.25
+604,Core,Penelope Graveyard,0.00
+605,Core,Web Compatibility,0.00
+606,Core,Infrastructure & Operations Graveyard,1.00
+607,Core,DevTools Graveyard,0.91
+608,Core,Testopia,0.79
+609,Core,Directory,0.72
+610,MailNews Core,Core,0.67
+611,MailNews Core,SeaMonkey,0.70
+612,MailNews Core,Bugzilla,0.44
+613,MailNews Core,Firefox,0.68
+614,MailNews Core,Other Applications,0.50
+615,MailNews Core,NSS,0.80
+616,MailNews Core,Calendar,0.66
+617,MailNews Core,Thunderbird,0.65
+618,MailNews Core,Marketing,0.66
+619,MailNews Core,Toolkit,0.64
+620,MailNews Core,NSPR,0.59
+621,MailNews Core,mozilla.org,0.33
+622,MailNews Core,Testing,0.69
+623,MailNews Core,Firefox Build System,0.59
+624,MailNews Core,Socorro,0.52
+625,MailNews Core,DevTools,0.57
+626,MailNews Core,developer.mozilla.org,0.68
+627,MailNews Core,Participation Infrastructure,0.16
+628,MailNews Core,www.mozilla.org,1.00
+629,MailNews Core,Infrastructure & Operations,0.38
+630,MailNews Core,Developer Engagement,0.33
+631,MailNews Core,Enterprise Information Security,0.36
+632,MailNews Core,Instantbird,0.08
+633,MailNews Core,Chat Core,0.37
+634,MailNews Core,Mozilla Foundation Communications,0.37
+635,MailNews Core,Firefox for Android,0.65
+636,MailNews Core,Tree Management,0.70
+637,MailNews Core,Community Building,0.00
+638,MailNews Core,support.mozilla.org,0.35
+639,MailNews Core,bugzilla.mozilla.org,0.72
+640,MailNews Core,Developer Documentation,0.84
+641,MailNews Core,WebExtensions,0.71
+642,MailNews Core,Localization Infrastructure and Tools,0.51
+643,MailNews Core,Cloud Services,0.31
+644,MailNews Core,Firefox for iOS,0.56
+645,MailNews Core,Taskcluster,0.64
+646,MailNews Core,GeckoView,0.80
+647,MailNews Core,Release Engineering,0.42
+648,MailNews Core,Data Platform and Tools,0.83
+649,MailNews Core,Developer Services,0.58
+650,MailNews Core,Focus-iOS,0.00
+651,MailNews Core,Webtools,0.76
+652,MailNews Core,External Software Affecting Firefox,0.83
+653,MailNews Core,Conduit,0.61
+654,MailNews Core,Data Science,0.77
+655,MailNews Core,Shield,0.83
+656,MailNews Core,Remote Protocol,0.91
+657,MailNews Core,Testing Graveyard,0.00
+658,MailNews Core,Camino Graveyard,0.67
+659,MailNews Core,Core Graveyard,0.61
+660,MailNews Core,Cloud Services Graveyard,0.75
+661,MailNews Core,Firefox Graveyard,0.86
+662,MailNews Core,Add-on SDK Graveyard,1.00
+663,MailNews Core,Firefox for Android Graveyard,0.00
+664,MailNews Core,Toolkit Graveyard,0.25
+665,MailNews Core,Penelope Graveyard,0.75
+666,MailNews Core,Web Compatibility,1.00
+667,MailNews Core,Infrastructure & Operations Graveyard,0.67
+668,MailNews Core,DevTools Graveyard,0.82
+669,MailNews Core,Testopia,0.62
+670,MailNews Core,Directory,0.52
+671,SeaMonkey,Core,0.73
+672,SeaMonkey,MailNews Core,0.82
+673,SeaMonkey,Bugzilla,0.69
+674,SeaMonkey,Firefox,0.72
+675,SeaMonkey,Other Applications,0.64
+676,SeaMonkey,NSS,0.70
+677,SeaMonkey,Calendar,0.76
+678,SeaMonkey,Thunderbird,0.86
+679,SeaMonkey,Marketing,0.79
+680,SeaMonkey,Toolkit,0.65
+681,SeaMonkey,NSPR,0.61
+682,SeaMonkey,mozilla.org,0.87
+683,SeaMonkey,Testing,0.74
+684,SeaMonkey,Firefox Build System,0.66
+685,SeaMonkey,Socorro,0.54
+686,SeaMonkey,DevTools,0.57
+687,SeaMonkey,developer.mozilla.org,0.61
+688,SeaMonkey,Participation Infrastructure,0.73
+689,SeaMonkey,www.mozilla.org,0.77
+690,SeaMonkey,Infrastructure & Operations,0.48
+691,SeaMonkey,Developer Engagement,1.00
+692,SeaMonkey,Enterprise Information Security,0.64
+693,SeaMonkey,Instantbird,0.17
+694,SeaMonkey,Chat Core,0.65
+695,SeaMonkey,Mozilla Foundation Communications,0.57
+696,SeaMonkey,Firefox for Android,0.66
+697,SeaMonkey,Tree Management,0.64
+698,SeaMonkey,Community Building,0.00
+699,SeaMonkey,support.mozilla.org,0.24
+700,SeaMonkey,bugzilla.mozilla.org,0.48
+701,SeaMonkey,Developer Documentation,0.09
+702,SeaMonkey,WebExtensions,0.68
+703,SeaMonkey,Localization Infrastructure and Tools,0.78
+704,SeaMonkey,Cloud Services,0.62
+705,SeaMonkey,Firefox for iOS,0.66
+706,SeaMonkey,Taskcluster,0.75
+707,SeaMonkey,GeckoView,0.64
+708,SeaMonkey,Release Engineering,0.80
+709,SeaMonkey,Data Platform and Tools,0.63
+710,SeaMonkey,Developer Services,0.71
+711,SeaMonkey,Focus-iOS,1.00
+712,SeaMonkey,Webtools,0.62
+713,SeaMonkey,External Software Affecting Firefox,0.33
+714,SeaMonkey,Conduit,0.49
+715,SeaMonkey,Data Science,0.81
+716,SeaMonkey,Shield,1.00
+717,SeaMonkey,Remote Protocol,0.95
+718,SeaMonkey,Testing Graveyard,0.00
+719,SeaMonkey,Camino Graveyard,0.00
+720,SeaMonkey,Core Graveyard,0.50
+721,SeaMonkey,Cloud Services Graveyard,0.25
+722,SeaMonkey,Firefox Graveyard,1.00
+723,SeaMonkey,Add-on SDK Graveyard,1.00
+724,SeaMonkey,Firefox for Android Graveyard,1.00
+725,SeaMonkey,Toolkit Graveyard,0.25
+726,SeaMonkey,Penelope Graveyard,0.25
+727,SeaMonkey,Web Compatibility,0.00
+728,SeaMonkey,Infrastructure & Operations Graveyard,1.00
+729,SeaMonkey,DevTools Graveyard,0.91
+730,SeaMonkey,Testopia,0.71
+731,SeaMonkey,Directory,0.80
+732,Bugzilla,Core,0.66
+733,Bugzilla,MailNews Core,0.72
+734,Bugzilla,SeaMonkey,0.71
+735,Bugzilla,Firefox,0.66
+736,Bugzilla,Other Applications,0.43
+737,Bugzilla,NSS,0.63
+738,Bugzilla,Calendar,0.69
+739,Bugzilla,Thunderbird,0.76
+740,Bugzilla,Marketing,0.57
+741,Bugzilla,Toolkit,0.68
+742,Bugzilla,NSPR,0.56
+743,Bugzilla,mozilla.org,0.80
+744,Bugzilla,Testing,0.69
+745,Bugzilla,Firefox Build System,0.56
+746,Bugzilla,Socorro,0.48
+747,Bugzilla,DevTools,0.60
+748,Bugzilla,developer.mozilla.org,0.50
+749,Bugzilla,Participation Infrastructure,0.13
+750,Bugzilla,www.mozilla.org,1.00
+751,Bugzilla,Infrastructure & Operations,0.57
+752,Bugzilla,Developer Engagement,0.50
+753,Bugzilla,Enterprise Information Security,0.00
+754,Bugzilla,Instantbird,0.42
+755,Bugzilla,Chat Core,0.74
+756,Bugzilla,Mozilla Foundation Communications,0.68
+757,Bugzilla,Firefox for Android,0.67
+758,Bugzilla,Tree Management,0.49
+759,Bugzilla,Community Building,0.25
+760,Bugzilla,support.mozilla.org,0.35
+761,Bugzilla,bugzilla.mozilla.org,0.59
+762,Bugzilla,Developer Documentation,0.69
+763,Bugzilla,WebExtensions,0.57
+764,Bugzilla,Localization Infrastructure and Tools,0.65
+765,Bugzilla,Cloud Services,0.49
+766,Bugzilla,Firefox for iOS,0.53
+767,Bugzilla,Taskcluster,0.61
+768,Bugzilla,GeckoView,0.74
+769,Bugzilla,Release Engineering,0.47
+770,Bugzilla,Data Platform and Tools,0.78
+771,Bugzilla,Developer Services,0.85
+772,Bugzilla,Focus-iOS,0.83
+773,Bugzilla,Webtools,0.56
+774,Bugzilla,External Software Affecting Firefox,0.17
+775,Bugzilla,Conduit,0.32
+776,Bugzilla,Data Science,0.55
+777,Bugzilla,Shield,0.75
+778,Bugzilla,Remote Protocol,0.92
+779,Bugzilla,Testing Graveyard,0.00
+780,Bugzilla,Camino Graveyard,0.67
+781,Bugzilla,Core Graveyard,0.50
+782,Bugzilla,Cloud Services Graveyard,0.75
+783,Bugzilla,Firefox Graveyard,0.71
+784,Bugzilla,Add-on SDK Graveyard,1.00
+785,Bugzilla,Firefox for Android Graveyard,0.00
+786,Bugzilla,Toolkit Graveyard,0.25
+787,Bugzilla,Penelope Graveyard,0.00
+788,Bugzilla,Web Compatibility,0.00
+789,Bugzilla,Infrastructure & Operations Graveyard,0.00
+790,Bugzilla,DevTools Graveyard,0.64
+791,Bugzilla,Testopia,0.79
+792,Bugzilla,Directory,0.80
+793,Firefox,Core,0.81
+794,Firefox,MailNews Core,0.66
+795,Firefox,SeaMonkey,0.72
+796,Firefox,Bugzilla,0.49
+797,Firefox,Other Applications,0.62
+798,Firefox,NSS,0.45
+799,Firefox,Calendar,0.62
+800,Firefox,Thunderbird,0.65
+801,Firefox,Marketing,0.89
+802,Firefox,Toolkit,0.88
+803,Firefox,NSPR,0.64
+804,Firefox,mozilla.org,0.93
+805,Firefox,Testing,0.88
+806,Firefox,Firefox Build System,0.85
+807,Firefox,Socorro,0.82
+808,Firefox,DevTools,0.85
+809,Firefox,developer.mozilla.org,0.89
+810,Firefox,Participation Infrastructure,0.82
+811,Firefox,www.mozilla.org,1.00
+812,Firefox,Infrastructure & Operations,0.82
+813,Firefox,Developer Engagement,1.00
+814,Firefox,Enterprise Information Security,0.36
+815,Firefox,Instantbird,0.33
+816,Firefox,Chat Core,0.81
+817,Firefox,Mozilla Foundation Communications,0.57
+818,Firefox,Firefox for Android,0.93
+819,Firefox,Tree Management,0.90
+820,Firefox,Community Building,0.75
+821,Firefox,support.mozilla.org,0.71
+822,Firefox,bugzilla.mozilla.org,0.83
+823,Firefox,Developer Documentation,0.70
+824,Firefox,WebExtensions,0.89
+825,Firefox,Localization Infrastructure and Tools,0.86
+826,Firefox,Cloud Services,0.87
+827,Firefox,Firefox for iOS,0.82
+828,Firefox,Taskcluster,0.94
+829,Firefox,GeckoView,0.87
+830,Firefox,Release Engineering,0.84
+831,Firefox,Data Platform and Tools,0.96
+832,Firefox,Developer Services,0.75
+833,Firefox,Focus-iOS,0.83
+834,Firefox,Webtools,0.97
+835,Firefox,External Software Affecting Firefox,1.00
+836,Firefox,Conduit,0.81
+837,Firefox,Data Science,0.92
+838,Firefox,Shield,1.00
+839,Firefox,Remote Protocol,0.94
+840,Firefox,Testing Graveyard,0.00
+841,Firefox,Camino Graveyard,0.00
+842,Firefox,Core Graveyard,0.44
+843,Firefox,Cloud Services Graveyard,1.00
+844,Firefox,Firefox Graveyard,0.86
+845,Firefox,Add-on SDK Graveyard,1.00
+846,Firefox,Firefox for Android Graveyard,0.00
+847,Firefox,Toolkit Graveyard,0.25
+848,Firefox,Penelope Graveyard,0.50
+849,Firefox,Web Compatibility,1.00
+850,Firefox,Infrastructure & Operations Graveyard,0.67
+851,Firefox,DevTools Graveyard,1.00
+852,Firefox,Testopia,0.38
+853,Firefox,Directory,0.52
+854,Other Applications,Core,0.50
+855,Other Applications,MailNews Core,0.63
+856,Other Applications,SeaMonkey,0.72
+857,Other Applications,Bugzilla,0.66
+858,Other Applications,Firefox,0.47
+859,Other Applications,NSS,0.77
+860,Other Applications,Calendar,0.69
+861,Other Applications,Thunderbird,0.72
+862,Other Applications,Marketing,0.60
+863,Other Applications,Toolkit,0.40
+864,Other Applications,NSPR,0.74
+865,Other Applications,mozilla.org,0.32
+866,Other Applications,Testing,0.31
+867,Other Applications,Firefox Build System,0.33
+868,Other Applications,Socorro,0.12
+869,Other Applications,DevTools,0.28
+870,Other Applications,developer.mozilla.org,0.44
+871,Other Applications,Participation Infrastructure,0.82
+872,Other Applications,www.mozilla.org,0.00
+873,Other Applications,Infrastructure & Operations,0.19
+874,Other Applications,Developer Engagement,0.50
+875,Other Applications,Enterprise Information Security,0.00
+876,Other Applications,Instantbird,0.17
+877,Other Applications,Chat Core,0.10
+878,Other Applications,Mozilla Foundation Communications,0.06
+879,Other Applications,Firefox for Android,0.24
+880,Other Applications,Tree Management,0.38
+881,Other Applications,Community Building,0.00
+882,Other Applications,support.mozilla.org,0.35
+883,Other Applications,bugzilla.mozilla.org,0.21
+884,Other Applications,Developer Documentation,0.21
+885,Other Applications,WebExtensions,0.31
+886,Other Applications,Localization Infrastructure and Tools,0.22
+887,Other Applications,Cloud Services,0.15
+888,Other Applications,Firefox for iOS,0.14
+889,Other Applications,Taskcluster,0.35
+890,Other Applications,GeckoView,0.51
+891,Other Applications,Release Engineering,0.33
+892,Other Applications,Data Platform and Tools,0.11
+893,Other Applications,Developer Services,0.25
+894,Other Applications,Focus-iOS,0.00
+895,Other Applications,Webtools,0.32
+896,Other Applications,External Software Affecting Firefox,0.17
+897,Other Applications,Conduit,0.29
+898,Other Applications,Data Science,0.23
+899,Other Applications,Shield,0.17
+900,Other Applications,Remote Protocol,0.37
+901,Other Applications,Testing Graveyard,0.00
+902,Other Applications,Camino Graveyard,0.33
+903,Other Applications,Core Graveyard,0.28
+904,Other Applications,Cloud Services Graveyard,0.25
+905,Other Applications,Firefox Graveyard,0.29
+906,Other Applications,Add-on SDK Graveyard,1.00
+907,Other Applications,Firefox for Android Graveyard,0.00
+908,Other Applications,Toolkit Graveyard,0.00
+909,Other Applications,Penelope Graveyard,0.25
+910,Other Applications,Web Compatibility,0.00
+911,Other Applications,Infrastructure & Operations Graveyard,0.33
+912,Other Applications,DevTools Graveyard,0.09
+913,Other Applications,Testopia,0.62
+914,Other Applications,Directory,0.68
+915,NSS,Core,0.71
+916,NSS,MailNews Core,0.66
+917,NSS,SeaMonkey,0.62
+918,NSS,Bugzilla,0.59
+919,NSS,Firefox,0.66
+920,NSS,Other Applications,0.52
+921,NSS,Calendar,0.58
+922,NSS,Thunderbird,0.62
+923,NSS,Marketing,0.22
+924,NSS,Toolkit,0.70
+925,NSS,NSPR,0.60
+926,NSS,mozilla.org,0.72
+927,NSS,Testing,0.75
+928,NSS,Firefox Build System,0.76
+929,NSS,Socorro,0.45
+930,NSS,DevTools,0.64
+931,NSS,developer.mozilla.org,0.70
+932,NSS,Participation Infrastructure,0.26
+933,NSS,www.mozilla.org,1.00
+934,NSS,Infrastructure & Operations,0.47
+935,NSS,Developer Engagement,0.83
+936,NSS,Enterprise Information Security,0.45
+937,NSS,Instantbird,0.50
+938,NSS,Chat Core,0.67
+939,NSS,Mozilla Foundation Communications,0.88
+940,NSS,Firefox for Android,0.84
+941,NSS,Tree Management,0.75
+942,NSS,Community Building,0.00
+943,NSS,support.mozilla.org,0.59
+944,NSS,bugzilla.mozilla.org,0.64
+945,NSS,Developer Documentation,0.87
+946,NSS,WebExtensions,0.59
+947,NSS,Localization Infrastructure and Tools,0.49
+948,NSS,Cloud Services,0.38
+949,NSS,Firefox for iOS,0.74
+950,NSS,Taskcluster,0.49
+951,NSS,GeckoView,0.66
+952,NSS,Release Engineering,0.59
+953,NSS,Data Platform and Tools,0.73
+954,NSS,Developer Services,0.83
+955,NSS,Focus-iOS,0.33
+956,NSS,Webtools,0.21
+957,NSS,External Software Affecting Firefox,1.00
+958,NSS,Conduit,0.26
+959,NSS,Data Science,0.81
+960,NSS,Shield,0.67
+961,NSS,Remote Protocol,0.90
+962,NSS,Testing Graveyard,0.00
+963,NSS,Camino Graveyard,0.33
+964,NSS,Core Graveyard,0.61
+965,NSS,Cloud Services Graveyard,1.00
+966,NSS,Firefox Graveyard,0.86
+967,NSS,Add-on SDK Graveyard,0.00
+968,NSS,Firefox for Android Graveyard,1.00
+969,NSS,Toolkit Graveyard,0.25
+970,NSS,Penelope Graveyard,0.00
+971,NSS,Web Compatibility,1.00
+972,NSS,Infrastructure & Operations Graveyard,1.00
+973,NSS,DevTools Graveyard,0.36
+974,NSS,Testopia,0.42
+975,NSS,Directory,0.64
+976,Calendar,Core,0.59
+977,Calendar,MailNews Core,0.59
+978,Calendar,SeaMonkey,0.58
+979,Calendar,Bugzilla,0.57
+980,Calendar,Firefox,0.55
+981,Calendar,Other Applications,0.53
+982,Calendar,NSS,0.60
+983,Calendar,Thunderbird,0.58
+984,Calendar,Marketing,0.50
+985,Calendar,Toolkit,0.47
+986,Calendar,NSPR,0.43
+987,Calendar,mozilla.org,0.19
+988,Calendar,Testing,0.64
+989,Calendar,Firefox Build System,0.44
+990,Calendar,Socorro,0.25
+991,Calendar,DevTools,0.46
+992,Calendar,developer.mozilla.org,0.40
+993,Calendar,Participation Infrastructure,0.10
+994,Calendar,www.mozilla.org,0.69
+995,Calendar,Infrastructure & Operations,0.36
+996,Calendar,Developer Engagement,0.50
+997,Calendar,Enterprise Information Security,0.00
+998,Calendar,Instantbird,0.25
+999,Calendar,Chat Core,0.49
+1000,Calendar,Mozilla Foundation Communications,0.32
+1001,Calendar,Firefox for Android,0.49
+1002,Calendar,Tree Management,0.45
+1003,Calendar,Community Building,0.00
+1004,Calendar,support.mozilla.org,0.24
+1005,Calendar,bugzilla.mozilla.org,0.51
+1006,Calendar,Developer Documentation,0.00
+1007,Calendar,WebExtensions,0.52
+1008,Calendar,Localization Infrastructure and Tools,0.51
+1009,Calendar,Cloud Services,0.46
+1010,Calendar,Firefox for iOS,0.70
+1011,Calendar,Taskcluster,0.57
+1012,Calendar,GeckoView,0.35
+1013,Calendar,Release Engineering,0.54
+1014,Calendar,Data Platform and Tools,0.45
+1015,Calendar,Developer Services,0.51
+1016,Calendar,Focus-iOS,1.00
+1017,Calendar,Webtools,0.41
+1018,Calendar,External Software Affecting Firefox,0.33
+1019,Calendar,Conduit,0.74
+1020,Calendar,Data Science,0.74
+1021,Calendar,Shield,0.67
+1022,Calendar,Remote Protocol,0.83
+1023,Calendar,Testing Graveyard,1.00
+1024,Calendar,Camino Graveyard,0.33
+1025,Calendar,Core Graveyard,0.44
+1026,Calendar,Cloud Services Graveyard,1.00
+1027,Calendar,Firefox Graveyard,0.00
+1028,Calendar,Add-on SDK Graveyard,0.00
+1029,Calendar,Firefox for Android Graveyard,1.00
+1030,Calendar,Toolkit Graveyard,0.00
+1031,Calendar,Penelope Graveyard,0.00
+1032,Calendar,Web Compatibility,0.00
+1033,Calendar,Infrastructure & Operations Graveyard,0.00
+1034,Calendar,DevTools Graveyard,0.09
+1035,Calendar,Testopia,0.75
+1036,Calendar,Directory,0.40
+1037,Thunderbird,Core,0.72
+1038,Thunderbird,MailNews Core,0.85
+1039,Thunderbird,SeaMonkey,0.85
+1040,Thunderbird,Bugzilla,0.72
+1041,Thunderbird,Firefox,0.72
+1042,Thunderbird,Other Applications,0.68
+1043,Thunderbird,NSS,0.73
+1044,Thunderbird,Calendar,0.80
+1045,Thunderbird,Marketing,0.75
+1046,Thunderbird,Toolkit,0.75
+1047,Thunderbird,NSPR,0.69
+1048,Thunderbird,mozilla.org,0.30
+1049,Thunderbird,Testing,0.70
+1050,Thunderbird,Firefox Build System,0.68
+1051,Thunderbird,Socorro,0.71
+1052,Thunderbird,DevTools,0.61
+1053,Thunderbird,developer.mozilla.org,0.61
+1054,Thunderbird,Participation Infrastructure,0.76
+1055,Thunderbird,www.mozilla.org,0.23
+1056,Thunderbird,Infrastructure & Operations,0.61
+1057,Thunderbird,Developer Engagement,0.17
+1058,Thunderbird,Enterprise Information Security,0.00
+1059,Thunderbird,Instantbird,0.08
+1060,Thunderbird,Chat Core,0.67
+1061,Thunderbird,Mozilla Foundation Communications,0.56
+1062,Thunderbird,Firefox for Android,0.74
+1063,Thunderbird,Tree Management,0.61
+1064,Thunderbird,Community Building,0.00
+1065,Thunderbird,support.mozilla.org,0.47
+1066,Thunderbird,bugzilla.mozilla.org,0.57
+1067,Thunderbird,Developer Documentation,0.54
+1068,Thunderbird,WebExtensions,0.71
+1069,Thunderbird,Localization Infrastructure and Tools,0.47
+1070,Thunderbird,Cloud Services,0.31
+1071,Thunderbird,Firefox for iOS,0.60
+1072,Thunderbird,Taskcluster,0.70
+1073,Thunderbird,GeckoView,0.71
+1074,Thunderbird,Release Engineering,0.54
+1075,Thunderbird,Data Platform and Tools,0.59
+1076,Thunderbird,Developer Services,0.73
+1077,Thunderbird,Focus-iOS,0.67
+1078,Thunderbird,Webtools,0.76
+1079,Thunderbird,External Software Affecting Firefox,0.33
+1080,Thunderbird,Conduit,0.37
+1081,Thunderbird,Data Science,0.79
+1082,Thunderbird,Shield,0.83
+1083,Thunderbird,Remote Protocol,0.90
+1084,Thunderbird,Testing Graveyard,0.00
+1085,Thunderbird,Camino Graveyard,0.67
+1086,Thunderbird,Core Graveyard,0.33
+1087,Thunderbird,Cloud Services Graveyard,1.00
+1088,Thunderbird,Firefox Graveyard,0.86
+1089,Thunderbird,Add-on SDK Graveyard,1.00
+1090,Thunderbird,Firefox for Android Graveyard,0.00
+1091,Thunderbird,Toolkit Graveyard,0.00
+1092,Thunderbird,Penelope Graveyard,0.00
+1093,Thunderbird,Web Compatibility,0.00
+1094,Thunderbird,Infrastructure & Operations Graveyard,0.00
+1095,Thunderbird,DevTools Graveyard,1.00
+1096,Thunderbird,Testopia,0.79
+1097,Thunderbird,Directory,0.52
+1098,Toolkit,Core,0.81
+1099,Toolkit,MailNews Core,0.72
+1100,Toolkit,SeaMonkey,0.75
+1101,Toolkit,Bugzilla,0.61
+1102,Toolkit,Firefox,0.83
+1103,Toolkit,Other Applications,0.60
+1104,Toolkit,NSS,0.58
+1105,Toolkit,Calendar,0.66
+1106,Toolkit,Thunderbird,0.82
+1107,Toolkit,Marketing,0.35
+1108,Toolkit,NSPR,0.61
+1109,Toolkit,mozilla.org,0.35
+1110,Toolkit,Testing,0.82
+1111,Toolkit,Firefox Build System,0.72
+1112,Toolkit,Socorro,0.67
+1113,Toolkit,DevTools,0.77
+1114,Toolkit,developer.mozilla.org,0.73
+1115,Toolkit,Participation Infrastructure,0.11
+1116,Toolkit,www.mozilla.org,1.00
+1117,Toolkit,Infrastructure & Operations,0.36
+1118,Toolkit,Developer Engagement,0.50
+1119,Toolkit,Enterprise Information Security,0.64
+1120,Toolkit,Instantbird,0.17
+1121,Toolkit,Chat Core,0.64
+1122,Toolkit,Mozilla Foundation Communications,0.68
+1123,Toolkit,Firefox for Android,0.80
+1124,Toolkit,Tree Management,0.83
+1125,Toolkit,Community Building,0.25
+1126,Toolkit,support.mozilla.org,0.18
+1127,Toolkit,bugzilla.mozilla.org,0.68
+1128,Toolkit,Developer Documentation,0.91
+1129,Toolkit,WebExtensions,0.72
+1130,Toolkit,Localization Infrastructure and Tools,0.63
+1131,Toolkit,Cloud Services,0.44
+1132,Toolkit,Firefox for iOS,0.74
+1133,Toolkit,Taskcluster,0.83
+1134,Toolkit,GeckoView,0.64
+1135,Toolkit,Release Engineering,0.62
+1136,Toolkit,Data Platform and Tools,0.95
+1137,Toolkit,Developer Services,0.74
+1138,Toolkit,Focus-iOS,0.00
+1139,Toolkit,Webtools,0.88
+1140,Toolkit,External Software Affecting Firefox,1.00
+1141,Toolkit,Conduit,0.49
+1142,Toolkit,Data Science,0.92
+1143,Toolkit,Shield,0.83
+1144,Toolkit,Remote Protocol,0.94
+1145,Toolkit,Testing Graveyard,0.00
+1146,Toolkit,Camino Graveyard,0.00
+1147,Toolkit,Core Graveyard,0.28
+1148,Toolkit,Cloud Services Graveyard,1.00
+1149,Toolkit,Firefox Graveyard,0.86
+1150,Toolkit,Add-on SDK Graveyard,1.00
+1151,Toolkit,Firefox for Android Graveyard,0.00
+1152,Toolkit,Toolkit Graveyard,0.25
+1153,Toolkit,Penelope Graveyard,0.25
+1154,Toolkit,Web Compatibility,0.00
+1155,Toolkit,Infrastructure & Operations Graveyard,0.33
+1156,Toolkit,DevTools Graveyard,1.00
+1157,Toolkit,Testopia,0.67
+1158,Toolkit,Directory,0.52
+1159,NSPR,Core,0.48
+1160,NSPR,MailNews Core,0.66
+1161,NSPR,SeaMonkey,0.70
+1162,NSPR,Bugzilla,0.71
+1163,NSPR,Firefox,0.34
+1164,NSPR,Other Applications,0.55
+1165,NSPR,NSS,0.75
+1166,NSPR,Calendar,0.61
+1167,NSPR,Thunderbird,0.71
+1168,NSPR,Marketing,0.05
+1169,NSPR,Toolkit,0.32
+1170,NSPR,mozilla.org,0.01
+1171,NSPR,Testing,0.33
+1172,NSPR,Firefox Build System,0.34
+1173,NSPR,Socorro,0.14
+1174,NSPR,DevTools,0.19
+1175,NSPR,developer.mozilla.org,0.30
+1176,NSPR,Participation Infrastructure,0.06
+1177,NSPR,www.mozilla.org,0.00
+1178,NSPR,Infrastructure & Operations,0.15
+1179,NSPR,Developer Engagement,0.17
+1180,NSPR,Enterprise Information Security,0.36
+1181,NSPR,Instantbird,0.42
+1182,NSPR,Chat Core,0.06
+1183,NSPR,Mozilla Foundation Communications,0.41
+1184,NSPR,Firefox for Android,0.40
+1185,NSPR,Tree Management,0.13
+1186,NSPR,Community Building,0.00
+1187,NSPR,support.mozilla.org,0.35
+1188,NSPR,bugzilla.mozilla.org,0.36
+1189,NSPR,Developer Documentation,0.20
+1190,NSPR,WebExtensions,0.33
+1191,NSPR,Localization Infrastructure and Tools,0.27
+1192,NSPR,Cloud Services,0.36
+1193,NSPR,Firefox for iOS,0.00
+1194,NSPR,Taskcluster,0.18
+1195,NSPR,GeckoView,0.21
+1196,NSPR,Release Engineering,0.14
+1197,NSPR,Data Platform and Tools,0.32
+1198,NSPR,Developer Services,0.31
+1199,NSPR,Focus-iOS,0.00
+1200,NSPR,Webtools,0.24
+1201,NSPR,External Software Affecting Firefox,0.00
+1202,NSPR,Conduit,0.17
+1203,NSPR,Data Science,0.17
+1204,NSPR,Shield,0.17
+1205,NSPR,Remote Protocol,0.41
+1206,NSPR,Testing Graveyard,0.00
+1207,NSPR,Camino Graveyard,0.00
+1208,NSPR,Core Graveyard,0.50
+1209,NSPR,Cloud Services Graveyard,0.00
+1210,NSPR,Firefox Graveyard,0.71
+1211,NSPR,Add-on SDK Graveyard,0.00
+1212,NSPR,Firefox for Android Graveyard,0.00
+1213,NSPR,Toolkit Graveyard,0.00
+1214,NSPR,Penelope Graveyard,0.00
+1215,NSPR,Web Compatibility,0.00
+1216,NSPR,Infrastructure & Operations Graveyard,1.00
+1217,NSPR,DevTools Graveyard,0.00
+1218,NSPR,Testopia,0.67
+1219,NSPR,Directory,0.56
+1220,Testing,Core,0.45
+1221,Testing,MailNews Core,0.80
+1222,Testing,SeaMonkey,0.76
+1223,Testing,Bugzilla,0.76
+1224,Testing,Firefox,0.33
+1225,Testing,Other Applications,0.54
+1226,Testing,NSS,0.78
+1227,Testing,Calendar,0.72
+1228,Testing,Thunderbird,0.80
+1229,Testing,Marketing,0.05
+1230,Testing,Toolkit,0.28
+1231,Testing,NSPR,0.74
+1232,Testing,mozilla.org,0.06
+1233,Testing,Firefox Build System,0.10
+1234,Testing,Socorro,0.08
+1235,Testing,DevTools,0.06
+1236,Testing,developer.mozilla.org,0.04
+1237,Testing,Participation Infrastructure,0.03
+1238,Testing,www.mozilla.org,0.00
+1239,Testing,Infrastructure & Operations,0.03
+1240,Testing,Developer Engagement,0.33
+1241,Testing,Enterprise Information Security,0.00
+1242,Testing,Instantbird,0.33
+1243,Testing,Chat Core,0.12
+1244,Testing,Mozilla Foundation Communications,0.01
+1245,Testing,Firefox for Android,0.06
+1246,Testing,Tree Management,0.05
+1247,Testing,Community Building,0.00
+1248,Testing,support.mozilla.org,0.00
+1249,Testing,bugzilla.mozilla.org,0.11
+1250,Testing,Developer Documentation,0.00
+1251,Testing,WebExtensions,0.27
+1252,Testing,Localization Infrastructure and Tools,0.24
+1253,Testing,Cloud Services,0.00
+1254,Testing,Firefox for iOS,0.22
+1255,Testing,Taskcluster,0.07
+1256,Testing,GeckoView,0.21
+1257,Testing,Release Engineering,0.04
+1258,Testing,Data Platform and Tools,0.12
+1259,Testing,Developer Services,0.07
+1260,Testing,Focus-iOS,0.00
+1261,Testing,Webtools,0.56
+1262,Testing,External Software Affecting Firefox,0.00
+1263,Testing,Conduit,0.19
+1264,Testing,Data Science,0.02
+1265,Testing,Shield,0.00
+1266,Testing,Remote Protocol,0.01
+1267,Testing,Testing Graveyard,1.00
+1268,Testing,Camino Graveyard,0.00
+1269,Testing,Core Graveyard,0.22
+1270,Testing,Cloud Services Graveyard,0.00
+1271,Testing,Firefox Graveyard,0.00
+1272,Testing,Add-on SDK Graveyard,0.00
+1273,Testing,Firefox for Android Graveyard,0.00
+1274,Testing,Toolkit Graveyard,0.25
+1275,Testing,Penelope Graveyard,0.00
+1276,Testing,Web Compatibility,0.00
+1277,Testing,Infrastructure & Operations Graveyard,0.00
+1278,Testing,DevTools Graveyard,0.00
+1279,Testing,Testopia,0.96
+1280,Testing,Directory,0.68
+1281,Firefox Build System,Core,0.61
+1282,Firefox Build System,MailNews Core,0.57
+1283,Firefox Build System,SeaMonkey,0.49
+1284,Firefox Build System,Bugzilla,0.53
+1285,Firefox Build System,Firefox,0.58
+1286,Firefox Build System,Other Applications,0.64
+1287,Firefox Build System,NSS,0.61
+1288,Firefox Build System,Calendar,0.63
+1289,Firefox Build System,Thunderbird,0.57
+1290,Firefox Build System,Marketing,0.28
+1291,Firefox Build System,Toolkit,0.57
+1292,Firefox Build System,NSPR,0.46
+1293,Firefox Build System,mozilla.org,0.33
+1294,Firefox Build System,Testing,0.49
+1295,Firefox Build System,Socorro,0.24
+1296,Firefox Build System,DevTools,0.50
+1297,Firefox Build System,developer.mozilla.org,0.74
+1298,Firefox Build System,Participation Infrastructure,0.81
+1299,Firefox Build System,www.mozilla.org,0.69
+1300,Firefox Build System,Infrastructure & Operations,0.45
+1301,Firefox Build System,Developer Engagement,0.50
+1302,Firefox Build System,Enterprise Information Security,0.09
+1303,Firefox Build System,Instantbird,0.33
+1304,Firefox Build System,Chat Core,0.30
+1305,Firefox Build System,Mozilla Foundation Communications,0.47
+1306,Firefox Build System,Firefox for Android,0.59
+1307,Firefox Build System,Tree Management,0.60
+1308,Firefox Build System,Community Building,0.00
+1309,Firefox Build System,support.mozilla.org,0.59
+1310,Firefox Build System,bugzilla.mozilla.org,0.55
+1311,Firefox Build System,Developer Documentation,0.56
+1312,Firefox Build System,WebExtensions,0.38
+1313,Firefox Build System,Localization Infrastructure and Tools,0.35
+1314,Firefox Build System,Cloud Services,0.44
+1315,Firefox Build System,Firefox for iOS,0.55
+1316,Firefox Build System,Taskcluster,0.56
+1317,Firefox Build System,GeckoView,0.32
+1318,Firefox Build System,Release Engineering,0.37
+1319,Firefox Build System,Data Platform and Tools,0.54
+1320,Firefox Build System,Developer Services,0.65
+1321,Firefox Build System,Focus-iOS,1.00
+1322,Firefox Build System,Webtools,0.29
+1323,Firefox Build System,External Software Affecting Firefox,0.67
+1324,Firefox Build System,Conduit,0.46
+1325,Firefox Build System,Data Science,0.70
+1326,Firefox Build System,Shield,0.50
+1327,Firefox Build System,Remote Protocol,0.74
+1328,Firefox Build System,Testing Graveyard,1.00
+1329,Firefox Build System,Camino Graveyard,0.00
+1330,Firefox Build System,Core Graveyard,0.50
+1331,Firefox Build System,Cloud Services Graveyard,1.00
+1332,Firefox Build System,Firefox Graveyard,0.00
+1333,Firefox Build System,Add-on SDK Graveyard,0.00
+1334,Firefox Build System,Firefox for Android Graveyard,0.00
+1335,Firefox Build System,Toolkit Graveyard,0.25
+1336,Firefox Build System,Penelope Graveyard,0.25
+1337,Firefox Build System,Web Compatibility,0.00
+1338,Firefox Build System,Infrastructure & Operations Graveyard,0.00
+1339,Firefox Build System,DevTools Graveyard,0.27
+1340,Firefox Build System,Testopia,0.67
+1341,Firefox Build System,Directory,0.88
+1342,Webtools,Core,0.43
+1343,Webtools,MailNews Core,0.70
+1344,Webtools,SeaMonkey,0.70
+1345,Webtools,Bugzilla,0.66
+1346,Webtools,Firefox,0.47
+1347,Webtools,Other Applications,0.61
+1348,Webtools,NSS,0.82
+1349,Webtools,Calendar,0.62
+1350,Webtools,Thunderbird,0.60
+1351,Webtools,Marketing,0.08
+1352,Webtools,Toolkit,0.36
+1353,Webtools,NSPR,0.73
+1354,Webtools,mozilla.org,0.03
+1355,Webtools,Testing,0.30
+1356,Webtools,Firefox Build System,0.18
+1357,Webtools,Socorro,0.20
+1358,Webtools,DevTools,0.27
+1359,Webtools,developer.mozilla.org,0.05
+1360,Webtools,Participation Infrastructure,0.09
+1361,Webtools,www.mozilla.org,0.23
+1362,Webtools,Infrastructure & Operations,0.10
+1363,Webtools,Developer Engagement,0.83
+1364,Webtools,Enterprise Information Security,0.09
+1365,Webtools,Instantbird,0.17
+1366,Webtools,Chat Core,0.10
+1367,Webtools,Mozilla Foundation Communications,0.19
+1368,Webtools,Firefox for Android,0.15
+1369,Webtools,Tree Management,0.21
+1370,Webtools,Community Building,0.00
+1371,Webtools,support.mozilla.org,0.35
+1372,Webtools,bugzilla.mozilla.org,0.20
+1373,Webtools,Developer Documentation,0.20
+1374,Webtools,WebExtensions,0.45
+1375,Webtools,Localization Infrastructure and Tools,0.04
+1376,Webtools,Cloud Services,0.13
+1377,Webtools,Firefox for iOS,0.53
+1378,Webtools,Taskcluster,0.21
+1379,Webtools,GeckoView,0.39
+1380,Webtools,Release Engineering,0.17
+1381,Webtools,Data Platform and Tools,0.25
+1382,Webtools,Developer Services,0.29
+1383,Webtools,Focus-iOS,0.83
+1384,Webtools,External Software Affecting Firefox,0.00
+1385,Webtools,Conduit,0.35
+1386,Webtools,Data Science,0.09
+1387,Webtools,Shield,0.17
+1388,Webtools,Remote Protocol,0.05
+1389,Webtools,Testing Graveyard,0.00
+1390,Webtools,Camino Graveyard,0.00
+1391,Webtools,Core Graveyard,0.17
+1392,Webtools,Cloud Services Graveyard,0.75
+1393,Webtools,Firefox Graveyard,0.00
+1394,Webtools,Add-on SDK Graveyard,0.00
+1395,Webtools,Firefox for Android Graveyard,1.00
+1396,Webtools,Toolkit Graveyard,0.00
+1397,Webtools,Penelope Graveyard,0.25
+1398,Webtools,Web Compatibility,0.00
+1399,Webtools,Infrastructure & Operations Graveyard,0.00
+1400,Webtools,DevTools Graveyard,0.00
+1401,Webtools,Testopia,0.54
+1402,Webtools,Directory,0.44

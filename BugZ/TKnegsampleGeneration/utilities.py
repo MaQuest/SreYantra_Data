@@ -11,13 +11,6 @@ def train_test_binary_class(x1_df,x2_df):
     test_y = x2_df["BinaryClass"]
     return train_x, train_y, test_x, test_y
 
-def x_y_split(df):
-    df = df.sample(frac=1)
-    train_x = df.drop(columns = ["BinaryClass","MultiClass", "req1Product", "req2Product"])
-    train_y = df["BinaryClass"]
-    return train_x, train_y
-
-
 def train_test_multi_class(x1_df,x2_df):
     x1_df = x1_df.sample(frac=1)
     x2_df = x2_df.sample(frac=1)
@@ -77,3 +70,34 @@ def balance_train(df):
         
     return train_x
    
+def train_test_split(df, train_size, test_size, test_type):
+    binary_class = df["BinaryClass"]
+    multi_class = df["MultiClass"]
+    ## drop unimportant columns from training
+    sub_df = df.drop(columns = ['BinaryClass', 'MultiClass',"req1Product","req2Product"])
+    
+    if test_type == "Binary":
+        test = binary_class
+    if test_type == "MultiClass":
+        test = multi_class
+        
+    train_x = sub_df.head(train_size)
+    train_y = test.head(train_size)
+    test_x = sub_df.tail(test_size)
+    test_y = test.tail(test_size)
+    
+    return train_x, train_y, test_x, test_y
+
+def x_y_split(df, test_type):
+    binary_class = df["BinaryClass"]
+    multi_class = df["MultiClass"]
+    ## drop unimportant columns from training
+    sub_df = df.drop(columns = ['BinaryClass', 'MultiClass',"req1Product","req2Product"])
+    
+    if test_type == "Binary":
+        test = binary_class
+    if test_type == "MultiClass":
+        test = multi_class
+        
+    return sub_df, test
+    
