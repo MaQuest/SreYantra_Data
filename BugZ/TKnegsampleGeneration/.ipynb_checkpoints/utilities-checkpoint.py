@@ -1,6 +1,56 @@
 from textblob import TextBlob
 from sklearn.feature_extraction.text import CountVectorizer,TfidfTransformer
+from nltk.util import ngrams
 import numpy as np
+import re
+from nltk.corpus import wordnet as wn
+from nltk import word_tokenize
+from nltk.collocations import *
+import nltk
+
+
+nouns = ["NN","NNS","NNP","NNPS"]
+ads = ["JJ","JJR","JJS"]
+
+def filter_trigrams(words):
+    trigrams = []
+    for trigram in words:
+        if ((trigram[0][1] in nouns or trigram[0][1] in ads) and (trigram[2][1] in nouns or trigram[2][1] in ads)):
+            trigrams.append((trigram[0][0],trigram[1][0],trigram[2][0]))
+    return trigrams
+
+def filter_bigrams(words):
+    bigrams = []
+    for bigram in words:
+        if ((bigram[0][1] in nouns or bigram[0][1] in ads) and (bigram[1][1] in nouns)):
+            bigrams.append((bigram[0][0],bigram[1][0]))
+    return bigrams
+
+
+def collocated_ngrams(words, ngrams):
+    tokens = generate_tokens(words)
+    tagged = nltk.pos_tag(tokens)
+    output = list(ngrams(tagged, ngrams))
+    if (ngrams == 2):
+        filtered_grams = filter_bigrams(output)
+    if (ngrams == 3):
+        filtered_grams = filter_trigrams(output)
+    return filtered_grams
+    
+def generate_collated_ngrams(words, ngrams):
+    tokenized_text = generate_tokens(words)
+    if (ngrams == 2):
+        measures = nltk.collocations.BigramAssocMeasures()
+        finder = BigramCollocationFinder.from_words(tokenized_text)
+    if (ngrams == 3):
+        measures = nltk.collocations.TrigramAssocMeasures()
+        finder = TrigramCollocationFinder.from_words(tokenized_text)
+    return finder.nbest(measures.pmi, 10)
+
+def generate_tokens(words):
+    words = words.lower()
+    tokens = re.findall(r"(?<![@#])\b\w+(?:'\w+)?", words)
+    return tokens
 
 def train_test_binary_class(x1_df,x2_df):
     x1_df = x1_df.sample(frac=1)
