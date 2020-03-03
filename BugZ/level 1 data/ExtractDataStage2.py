@@ -2,7 +2,7 @@
 This program is to do the following
 -- Read the 4 files in a single dataframe
 -- Check if they are all aligned
--- in a loop only extract the samples which have depends_on and blocks on type="enhancement" Or "task" 
+-- in a loop only extract the samples which have depends_on and blocks on type="enhancement" Or "task"
 i.e ignore all the bugs.
 -- for every pair create a dependency pair with following fields
 req1, req2, req1_id, req2_id, req1_priority, req2_priority, cosise_similarity, semantic similarity, BinaryClass, MultiClass fields
@@ -11,7 +11,7 @@ Logic:
 Step1: #dependent pairs (positive samples)
 For every row: req1 in the dataframe
     extract the dependes_on and blocks fields
-     for every entry: req2 
+     for every entry: req2
         if it is of the type "enhancement/task"
             create a pair req1, req2 and add to new dataframe
 
@@ -29,8 +29,8 @@ def readCombineSelect():
     df_all_data = df_all_data.append(pd.read_csv("Data_part3.csv"),  sort=True)
     df_all_data = df_all_data.append(pd.read_csv("Data_part4.csv"),  sort=False)
     print(len(df_all_data))
-    
-    #df_select holds the task/enhancements only across all the links that root data holds. 
+
+    #df_select holds the task/enhancements only across all the links that root data holds.
     df_select = df_all_data[df_all_data['type'].isin(['task','enhancement'])]
     print(len(df_select))
     #print(df_select.groupby(['product']).groups) #.value_counts())
@@ -65,7 +65,7 @@ def ChangeStringListstoInts(Lst):
                 ilist.append(int(float(i)))
         #print(ilist)
     return ilist
-    
+
 def searchAndpair(lst,item,df_select,multiclass):
     #df_temp_pairs = pd.DataFrame(columns=['req1','req1Id','req1Priority', 'req1Severity','req2','req2Id','req2Priority', 'req2Severity','CosSimilarity','SemSimilarity','BinaryClass','MultiClass'])
     req1 = item['summary']
@@ -84,7 +84,7 @@ def searchAndpair(lst,item,df_select,multiclass):
         print (i)
         instance = df_select.loc[df_select['id']==i]
         if not instance.empty:
-            #indexIs = ele_index[0] 
+            #indexIs = ele_index[0]
             #print (instance)
             req2 = instance.iloc[0]['summary']
             req2Id = instance.iloc[0]['id']
@@ -95,15 +95,15 @@ def searchAndpair(lst,item,df_select,multiclass):
             req2Release = instance.iloc[0]['target_milestone']
             req2Product = instance.iloc[0]['product']
             # print(req2, req2Id)
-            # input("hit enter to proceed")    
-        
-            if multiclass =='depends_on': #it is "a requires b"  
+            # input("hit enter to proceed")
+
+            if multiclass =='depends_on': #it is "a requires b"
                 pair = {'req1':req1,'req1Id':req1Id, 'req1Type':req1Type,'req1Priority':req1Priority, 'req1Severity':req1Severity,'req1Ver':req1Version,'req1Release': req1Release, 'req1Product':req1Product, 'req2':req2,'req2Id':req2Id,'req2Type':req2Type,'req2Priority':req2Priority, 'req2Severity':req2Severity,'req2Ver':req2Version, 'req2Release': req2Release, 'req2Product':req2Product,'CosSimilarity':0,'SemSimilarity':0,'BinaryClass':1,'MultiClass':'requires'}
             elif multiclass == 'blocks': #it is "b requires a"
-                pair = {'req1':req2,'req1Id':req2Id,'req1Type':req2Type,'req1Priority':req2Priority, 'req1Severity':req2Severity, 'req1Ver':req2Version, 'req1Release': req2Release, 'req1Product':req2Product, 'req2':req1,'req2Id':req1Id,'req2Type':req1Type,'req2Priority':req1Priority, 'req2Severity':req1Severity,'req2Ver':req1Version, 'req2Release': req1Release, 'req2Product':req1Product,'CosSimilarity':0,'SemSimilarity':0,'BinaryClass':1,'MultiClass':'requires'}
+                pair = {'req1':req1,'req1Id':req1Id, 'req1Type':req1Type,'req1Priority':req1Priority, 'req1Severity':req1Severity,'req1Ver':req1Version,'req1Release': req1Release, 'req1Product':req1Product, 'req2':req2,'req2Id':req2Id,'req2Type':req2Type,'req2Priority':req2Priority, 'req2Severity':req2Severity,'req2Ver':req2Version, 'req2Release': req2Release, 'req2Product':req2Product,'CosSimilarity':0,'SemSimilarity':0,'BinaryClass':1,'MultiClass':'blocks'}
             else: #it is duplicate type
                 pair = {'req1':req1,'req1Id':req1Id,'req1Type':req1Type,'req1Priority':req1Priority, 'req1Severity':req1Severity, 'req1Ver':req1Version, 'req1Release': req1Release, 'req1Product':req1Product,'req2':req2,'req2Id':req2Id,'req2Type':req2Type,'req2Priority':req2Priority, 'req2Severity':req2Severity, 'req2Ver':req2Version, 'req2Release': req2Release, 'req2Product':req2Product,'CosSimilarity':0,'SemSimilarity':0,'BinaryClass':1,'MultiClass':'similar'}
-            
+
             #print(pair)
             print("---------------------------------------------------------------------")
             temp_pairs.append(pair)
