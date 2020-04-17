@@ -6,4 +6,6 @@
 
 3. To run, type in the command "py learners.py"
 
+4. If an error comes up that a library is missing, type the command "pip install *libraryname*"
+
 4. Once a model is finished, all results should be visible in the "Results" Folder
