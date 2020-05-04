@@ -148,6 +148,12 @@ def global_d_sets(dp, ip, train_project, test_project, binaryclass, multiclass, 
     # half of bi-directional dependencies of projects
     # Ex. Firefox predicting Core, 50 cross project dependencies requested
     # 25 will come from Firefox-Core, 25 will come from Core-Firefox
+    #df1 = train_df.append(dp[(dp["req1Product"] == train_project) & (dp["req2Product"] == test_project)]
+    #df2 = train_df.append(dp[(dp["req2Product"] == test_project) & (dp["req1Product"] == train_project)]
+    #cp_len = len(df1.append(df2))
+    #if (cp_size > cp_len){
+    #     return
+    #}
     true_size = int(round((cp_size/2),2))
     # obtain local dependencies
     train_df = dp[(dp["req1Product"] == train_project) & (dp["req2Product"] == train_project)].sample((train_size - cp_size)/2))
