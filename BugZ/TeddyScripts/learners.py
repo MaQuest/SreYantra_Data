@@ -442,7 +442,7 @@ def main():
     count_vect = nlp.create_vectorizor()
     tfidf_transformer = TfidfTransformer()
     ## different train and test sizes we will be using
-    train_test_sizes = [(600,120,projects)]
+    train_test_sizes = [(1200,240,projects)]
     ## different algorithms to be used
     algs = [(nb_model,"NB"), (svc_model, "SVC"), (knn_model, "KNN"), (rfn_model, "RF")]
     # which dependency are we predicting
