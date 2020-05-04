@@ -442,6 +442,8 @@ def main():
     count_vect = nlp.create_vectorizor()
     tfidf_transformer = TfidfTransformer()
     ## different train and test sizes we will be using
+    # project_to_test = ["Core"]
+    #train_test_sizes = (600,100,project_to_test)]
     train_test_sizes = [(1200,240,projects)]
     ## different algorithms to be used
     algs = [(nb_model,"NB"), (svc_model, "SVC"), (knn_model, "KNN"), (rfn_model, "RF")]
